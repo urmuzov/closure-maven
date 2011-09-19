@@ -60,7 +60,7 @@
             <dependency>
                 <groupId>com.google.javascript</groupId>
                 <artifactId>closure-compiler</artifactId>
-                <version>r946</version>
+                <version>r1352</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.maven</groupId>

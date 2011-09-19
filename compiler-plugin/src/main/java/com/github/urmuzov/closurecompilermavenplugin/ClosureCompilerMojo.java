@@ -168,10 +168,10 @@ public class ClosureCompilerMojo extends AbstractMojo {
             File entryFile = pass.getEntryFile();
             sourcesCollector.collectFile(entryFile, null);
 
-            Result result = compiler.compile(externsCollector.getFiles(), sourcesCollector.getFiles(), compilerOptions);
-
             Utils.logExterns(logExternFiles, log, externsCollector);
             Utils.logSources(logSourceFiles, log, sourcesCollector);
+
+            Result result = compiler.compile(externsCollector.getFiles(), sourcesCollector.getFiles(), compilerOptions);
 
             boolean hasWarnings = result.warnings.length > 0;
             for (JSError warning : result.warnings) {

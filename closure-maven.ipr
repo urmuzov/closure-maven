@@ -217,7 +217,6 @@
       <module fileurl="file://$PROJECT_DIR$/closure-maven.iml" filepath="$PROJECT_DIR$/closure-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" filepath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" />
       <module fileurl="file://$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" filepath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test-artifact/test-artifact.iml" filepath="$PROJECT_DIR$/test-artifact/test-artifact.iml" />
     </modules>
   </component>
   <component name="ProjectResources">

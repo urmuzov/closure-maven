@@ -14,12 +14,8 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55ffdecc-84d4-4f1c-bfe9-35cce54f03ac" name="Default" comment="closure-library updated to r1285">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-plugin/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure-maven.ipr" afterPath="$PROJECT_DIR$/closure-maven.ipr" />
+    <list default="true" id="55ffdecc-84d4-4f1c-bfe9-35cce54f03ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure-maven.iws" afterPath="$PROJECT_DIR$/closure-maven.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="closure-maven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -153,7 +149,7 @@
       <file leaf-file-name="closure-maven.iws" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/closure-maven.iws">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="464" column="38" selection-start="22830" selection-end="22830" vertical-scroll-proportion="0.0">
+            <state line="464" column="38" selection-start="22820" selection-end="22820" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -721,7 +717,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="archetype updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md in all modules" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -737,6 +733,7 @@
     <MESSAGE value="Debug output changed" />
     <MESSAGE value="closure-library updated to r1285" />
     <MESSAGE value="archetype updated" />
+    <MESSAGE value="README.md in all modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -784,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/closure-maven.iws">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="464" column="38" selection-start="22830" selection-end="22830" vertical-scroll-proportion="0.0">
+        <state line="464" column="38" selection-start="22820" selection-end="22820" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

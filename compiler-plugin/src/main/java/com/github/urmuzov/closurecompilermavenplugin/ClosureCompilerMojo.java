@@ -174,9 +174,9 @@ public class ClosureCompilerMojo extends AbstractMojo {
             Result result = compiler.compile(externsCollector.getFiles(), sourcesCollector.getFiles(), compilerOptions);
 
             boolean hasWarnings = result.warnings.length > 0;
-            for (JSError warning : result.warnings) {
-                log.warn(warning.toString());
-            }
+//            for (JSError warning : result.warnings) {
+//                log.warn(warning.toString());
+//            }
 
             boolean hasErrors = result.errors.length > 0;
             for (JSError error : result.errors) {

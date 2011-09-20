@@ -173,6 +173,6 @@ public class Pass {
     }
 
     public String getTitleText() {
-        return "== Pass (" + entryFile + " -> " + outputFile + " ==";
+        return "== Pass (" + entryFile + " -> " + outputFile + ") ==";
     }
 }

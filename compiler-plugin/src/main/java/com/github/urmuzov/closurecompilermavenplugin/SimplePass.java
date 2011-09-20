@@ -13,7 +13,7 @@ public class SimplePass extends Pass {
 
     @Override
     public String getTitleText() {
-        return "== SimplePass (" + entryFile + " -> " + outputFile + " ==";
+        return "== SimplePass (" + entryFile + " -> " + outputFile + ") ==";
     }
 
     public String getEntryPointName() {

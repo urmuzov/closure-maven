@@ -15,6 +15,7 @@
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <closure-maven-basedir>${basedir}</closure-maven-basedir>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -94,11 +95,11 @@
     <distributionManagement>
         <repository>
             <id>urmuzov-releases</id>
-            <url>https://github.com/urmuzov/maven-repository/raw/master/releases</url>
+            <url>http://urmuzov.github.com/maven-repository/releases/</url>
         </repository>
         <snapshotRepository>
             <id>urmuzov-snapshot</id>
-            <url>https://github.com/urmuzov/maven-repository/raw/master/snapshots</url>
+            <url>http://urmuzov.github.com/maven-repository/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>

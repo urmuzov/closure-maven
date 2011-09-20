@@ -179,7 +179,14 @@ goog.ui.AutoComplete.prototype.triggerSuggestionsOnUpdate_ = false;
  * @enum {string}
  */
 goog.ui.AutoComplete.EventType = {
+
   /** A row has been highlighted by the renderer */
+  ROW_HILITE: 'rowhilite',
+
+  // Note: The events below are used for internal autocomplete events only and
+  // should not be used in non-autocomplete code.
+
+  /** A row has been mouseovered and should be highlighted by the renderer. */
   HILITE: 'hilite',
 
   /** A row has been selected by the renderer */
@@ -203,7 +210,7 @@ goog.ui.AutoComplete.EventType = {
   /**
    * The list of suggestions has been updated, usually because either the list
    * has opened, or because the user has typed another character and the
-   * suggestions have been updated.
+   * suggestions have been updated, or the user has dismissed the autocomplete.
    */
   SUGGESTIONS_UPDATE: 'suggestionsupdate'
 };
@@ -423,6 +430,16 @@ goog.ui.AutoComplete.prototype.hiliteId = function(id) {
 
 
 /**
+ * Hilites the index, if it's valid, otherwise does nothing.
+ * @param {number} index The row's index.
+ * @return {boolean} Whether the index was hilited.
+ */
+goog.ui.AutoComplete.prototype.hiliteIndex = function(index) {
+  return this.hiliteId(this.getIdOfIndex_(index));
+};
+
+
+/**
  * If there are any current matches, this passes the hilited row data to
  * <code>selectionHandler.selectRow()</code>
  * @return {boolean} Whether there are any current matches.
@@ -432,7 +449,12 @@ goog.ui.AutoComplete.prototype.selectHilited = function() {
   if (index != -1) {
     var selectedRow = this.rows_[index];
     var suppressUpdate = this.selectionHandler_.selectRow(selectedRow);
-    this.dismiss();
+    if (this.triggerSuggestionsOnUpdate_) {
+      this.token_ = null;
+      this.dismissOnDelay();
+    } else {
+      this.dismiss();
+    }
     if (!suppressUpdate) {
       this.dispatchEvent({
         type: goog.ui.AutoComplete.EventType.UPDATE,
@@ -476,6 +498,7 @@ goog.ui.AutoComplete.prototype.dismiss = function() {
   window.clearTimeout(this.dismissTimer_);
   this.dismissTimer_ = null;
   this.renderer_.dismiss();
+  this.dispatchEvent(goog.ui.AutoComplete.EventType.SUGGESTIONS_UPDATE);
 };
 
 
@@ -502,9 +525,7 @@ goog.ui.AutoComplete.prototype.cancelDelayedDismiss = function() {
 };
 
 
-/**
- * Cleans up the autocomplete object.
- */
+/** @inheritDoc */
 goog.ui.AutoComplete.prototype.disposeInternal = function() {
   goog.ui.AutoComplete.superClass_.disposeInternal.call(this);
   this.renderer_.dispose();
@@ -632,4 +653,15 @@ goog.ui.AutoComplete.prototype.detachInputs = function(var_args) {
   var inputHandler = /** @type {goog.ui.AutoComplete.InputHandler} */
       (this.selectionHandler_);
   inputHandler.detachInputs.apply(inputHandler, arguments);
+};
+
+
+/**
+ * Forces an update of the display.
+ * @param {boolean=} opt_force Whether to force an update.
+ */
+goog.ui.AutoComplete.prototype.update = function(opt_force) {
+  var inputHandler = /** @type {goog.ui.AutoComplete.InputHandler} */
+      (this.selectionHandler_);
+  inputHandler.update(opt_force);
 };

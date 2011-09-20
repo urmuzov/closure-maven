@@ -98,13 +98,6 @@ goog.ui.DatePicker = function(opt_date, opt_dateTimeSymbols, opt_domHelper) {
    * @private
    */
   this.keyHandlers_ = {};
-
-  /**
-   * Dom helper.
-   * @type {goog.dom.DomHelper}
-   * @private
-   */
-  this.dom_ = opt_domHelper || goog.dom.getDomHelper();
 };
 goog.inherits(goog.ui.DatePicker, goog.ui.Component);
 
@@ -547,10 +540,10 @@ goog.ui.DatePicker.prototype.selectNone = function() {
 
 
 /**
- * @return {goog.date.Date} The selected date.
+ * @return {goog.date.Date} The selected date or null if nothing is selected.
  */
 goog.ui.DatePicker.prototype.getDate = function() {
-  return this.date_;
+  return this.date_ && this.date_.clone();
 };
 
 

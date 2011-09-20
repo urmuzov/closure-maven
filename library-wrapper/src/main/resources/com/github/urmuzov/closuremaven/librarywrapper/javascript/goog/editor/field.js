@@ -175,7 +175,17 @@ goog.editor.Field = function(id, opt_doc) {
   this.loadState_ = goog.editor.Field.LoadState_.UNEDITABLE;
 
   var doc = opt_doc || document;
+
+  /**
+   * @type {!goog.dom.DomHelper}
+   * @protected
+   */
   this.originalDomHelper = goog.dom.getDomHelper(doc);
+
+  /**
+   * @type {Element}
+   * @protected
+   */
   this.originalElement = this.originalDomHelper.getElement(this.id);
 
   // Default to the same window as the field is in.
@@ -849,7 +859,7 @@ goog.editor.Field.prototype.clearListeners_ = function() {
           this.boundFocusListenerOpera_, false);
       editWindow.removeEventListener(goog.events.EventType.BLUR,
           this.boundBlurListenerOpera_, false);
-    } catch(e) {
+    } catch (e) {
       // The editWindow no longer exists, or has been navigated to a different-
       // origin URL. Either way, the event listeners have already been removed
       // for us.
@@ -865,10 +875,7 @@ goog.editor.Field.prototype.clearListeners_ = function() {
 };
 
 
-/**
- * Removes all listeners and destroys the eventhandler object.
- * @override
- */
+/** @inheritDoc */
 goog.editor.Field.prototype.disposeInternal = function() {
   if (this.isLoading() || this.isLoaded()) {
     this.logger.warning('Disposing a field that is in use.');
@@ -1360,15 +1367,16 @@ goog.editor.Field.prototype.queryCommandValueInternal_ = function(command,
  * state change)
  * @param {Function} handler The function to call if this is not an internal
  *     browser event.
- * @param {goog.events.BrowserEvent} e The browser event.
+ * @param {goog.events.BrowserEvent} browserEvent The browser event.
  * @protected
  */
-goog.editor.Field.prototype.handleDomAttrChange = function(handler, e) {
+goog.editor.Field.prototype.handleDomAttrChange =
+    function(handler, browserEvent) {
   if (this.isEventStopped(goog.editor.Field.EventType.CHANGE)) {
     return;
   }
 
-  e = e.getBrowserEvent();
+  var e = browserEvent.getBrowserEvent();
 
   // For XUL elements, since we don't care what they are doing
   try {
@@ -1882,7 +1890,7 @@ goog.editor.Field.prototype.isSelectionEditable = function() {
  */
 goog.editor.Field.cancelLinkClick_ = function(e) {
   if (goog.dom.getAncestorByTagNameAndClass(
-          /** @type {Node} */ (e.target), goog.dom.TagName.A)) {
+      /** @type {Node} */ (e.target), goog.dom.TagName.A)) {
     e.preventDefault();
   }
 };
@@ -2269,10 +2277,11 @@ goog.editor.Field.prototype.makeEditableInternal = function(opt_iframeSrc) {
  */
 goog.editor.Field.prototype.handleFieldLoad = function() {
   if (goog.userAgent.IE) {
-    // This must happen AFTER the browser has realized contentEditable is
-    // on.  This does not work if it directly follows the setting of the
-    // contentEditable attribute.  It seems that doing the getElemById
-    // above is enough to force IE to update its state.
+    // This sometimes fails if the selection is invalid. This can happen, for
+    // example, if you attach a CLICK handler to the field that causes the
+    // field to be removed from the DOM and replaced with an editor
+    // -- however, listening to another event like MOUSEDOWN does not have this
+    // issue since no mouse selection has happened at that time.
     goog.dom.Range.clearSelection(this.editableDomHelper.getWindow());
   }
 
@@ -2475,7 +2484,6 @@ goog.editor.Field.prototype.makeIframeField_ = function(opt_iframeSrc) {
  *
  * @param {HTMLIFrameElement} iframe The iframe element.
  * @protected
- * @notypecheck
  */
 goog.editor.Field.prototype.attachIframe = function(iframe) {
   var field = this.getOriginalElement();
@@ -2491,7 +2499,6 @@ goog.editor.Field.prototype.attachIframe = function(iframe) {
  * @return {goog.editor.icontent.FieldFormatInfo} The FieldFormatInfo object for
  *     this field's configuration.
  * @protected
- * @notypecheck
  */
 goog.editor.Field.prototype.getFieldFormatInfo = function(extraStyles) {
   var originalElement = this.getOriginalElement();

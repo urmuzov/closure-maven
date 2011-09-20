@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
+  <component name="ArtifactManager">
+    <artifact type="war" name="test-artifact:war">
+      <output-path>$PROJECT_DIR$/test-artifact/target</output-path>
+      <root id="archive" name="test-artifact.war">
+        <element id="artifact" artifact-name="test-artifact:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="test-artifact:war exploded">
+      <output-path>$PROJECT_DIR$/test-artifact/target/test-artifact</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="test-artifact/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="test-artifact" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+  </component>
   <component name="ClearCaseSharedConfig">
     <option name="myUseUcmModel" value="true" />
   </component>
@@ -29,6 +51,15 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
+  </component>
+  <component name="FacetAutodetectingManager">
+    <autodetection-disabled>
+      <facet-type id="web">
+        <modules>
+          <module name="test-artifact" />
+        </modules>
+      </facet-type>
+    </autodetection-disabled>
   </component>
   <component name="IdProvider" IDEtalkID="89582AAAB51162B554D73A154E9892DB" />
   <component name="JavacSettings">
@@ -186,6 +217,7 @@
       <module fileurl="file://$PROJECT_DIR$/closure-maven.iml" filepath="$PROJECT_DIR$/closure-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" filepath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" />
       <module fileurl="file://$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" filepath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-artifact/test-artifact.iml" filepath="$PROJECT_DIR$/test-artifact/test-artifact.iml" />
     </modules>
   </component>
   <component name="ProjectResources">

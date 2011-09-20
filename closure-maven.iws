@@ -14,379 +14,11 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55ffdecc-84d4-4f1c-bfe9-35cce54f03ac" name="Default" comment="">
+    <list default="true" id="55ffdecc-84d4-4f1c-bfe9-35cce54f03ac" name="Default" comment="closure-library updated to r1285">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-plugin/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure-maven.ipr" afterPath="$PROJECT_DIR$/closure-maven.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure-maven.iws" afterPath="$PROJECT_DIR$/closure-maven.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" afterPath="$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/array/array.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/array/array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/array/array_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/array/array_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/async/conditionaldelay.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/async/conditionaldelay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/async/delay.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/async/delay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/base.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/base_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/base_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/color/alpha.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/color/alpha.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/color/alpha_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/color/alpha_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/color/color.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/color/color.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/arc4.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/arc4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/arc4_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/arc4_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/base64.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/base64.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/base64_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/base64_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/crypt.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/crypt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/sha1.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/sha1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/sha1_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/sha1_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/autocomplete.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/autocomplete.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/bubble.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/bubble.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/charpicker.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/charpicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/checkbox.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/checkbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/colorpalette.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/colorpalette.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/css3menubutton.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/css3menubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/custombutton.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/custombutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/dialog.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/editor/bubble.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/editor/bubble.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/editortoolbar.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/editortoolbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/flatmenubutton.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/flatmenubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/imagelessbutton.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/imagelessbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/imagelessmenubutton.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/imagelessmenubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/inputdatepicker.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/inputdatepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/menubutton.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/menubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/menuitem.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/menuitem.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/offline.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/offline.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/tab.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/tab.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/tabbar.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/tabbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/toolbar.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/toolbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/tree.css" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/tree.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/cssom/cssom.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/cssom/cssom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/cssom/iframe/style.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/cssom/iframe/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/date/date.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/date/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/date/date_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/date/date_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/date/daterange.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/date/daterange.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/date/daterange_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/date/daterange_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/console.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/console.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/debug.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/debug_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/debug_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/debugwindow.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/debugwindow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/devcss/devcss.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/devcss/devcss.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/entrypointregistry.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/entrypointregistry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/entrypointregistry_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/entrypointregistry_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/errorhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/errorhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/errorhandler_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/errorhandler_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/fancywindow.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/fancywindow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/logger.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/logger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/reflect.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/reflect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/reflect_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/reflect_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/tracer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/tracer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/deps.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/deps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/disposable/disposable.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/disposable/disposable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/disposable/disposable_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/disposable/disposable_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/a11y.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/a11y.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/a11y_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/a11y_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/browserfeature.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/browserfeature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/browserrange/browserrange.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/browserrange/browserrange.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/browserrange/browserrange_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/browserrange/browserrange_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/browserrange/ierange.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/browserrange/ierange.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/dom.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/dom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/dom_quirks_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/dom_quirks_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/dom_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/dom_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/dom_test.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/dom_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/fontsizemonitor.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/fontsizemonitor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/range.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/range.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/textrange.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/textrange.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/viewportsizemonitor.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/viewportsizemonitor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/xml.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/xml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/xml_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/dom/xml_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/browserfeature.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/browserfeature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/clicktoeditwrapper.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/clicktoeditwrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/command.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/command.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/field.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/abstractbubbleplugin.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/abstractbubbleplugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/enterhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/enterhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/removeformatting_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/removeformatting_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/tableeditor.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/tableeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/tagonenterhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/tagonenterhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/seamlessfield.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/seamlessfield.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/seamlessfield_quirks_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/seamlessfield_quirks_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/seamlessfield_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/seamlessfield_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/table_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/table_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/actionhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/actionhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/browserevent.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/browserevent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/browserfeature.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/browserfeature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/eventhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/eventhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/eventhandler_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/eventhandler_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/events.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/events.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/events_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/events_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/eventtarget.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/eventtarget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/eventtype.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/eventtype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/focushandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/focushandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/imehandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/imehandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/imehandler_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/imehandler_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/inputhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/inputhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/keycodes.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/keycodes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/keycodes_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/keycodes_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/keyhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/keyhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/keyhandler_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/keyhandler_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/mousewheelhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/mousewheelhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/mousewheelhandler_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/mousewheelhandler_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/onlinehandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/onlinehandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/pastehandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/pastehandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/pastehandler_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/pastehandler_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/pools.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/events/pools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fs/entry.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fs/entry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fs/filewriter.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fs/filewriter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fs/fs.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fs/fs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fs/fs_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fs/fs_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/functions/functions.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/functions/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/abstractdragdrop.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/abstractdragdrop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/abstractdragdrop_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/abstractdragdrop_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/animation.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/animation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/animationqueue.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/animationqueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/dom.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/dom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/dragger.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/dragger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/draglistgroup.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/draglistgroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/draglistgroup_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/draglistgroup_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/dragscrollsupport.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/dragscrollsupport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/dragscrollsupport_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/dragscrollsupport_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/fx.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/fx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/fx_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/fx_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/basestore.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/basestore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/database.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/fakeworkerpool.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/fakeworkerpool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/fakeworkerpool_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/fakeworkerpool_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/httprequest.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/httprequest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/loggerclient.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/loggerclient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/loggerserver.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/loggerserver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/logstore.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/logstore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/worker.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/worker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/workerchannel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/workerchannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/workerpool.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/gears/workerpool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/affinetransform.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/affinetransform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/affinetransform_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/affinetransform_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/canvaselement.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/canvaselement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/canvasgraphics.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/canvasgraphics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/ext/coordinates.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/ext/coordinates.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/ext/element.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/ext/element.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/lineargradient.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/lineargradient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/paths_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/paths_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/svggraphics.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/svggraphics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/vmlgraphics.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/graphics/vmlgraphics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/history/history.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/history/history.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/history/html5history_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/history/html5history_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/bidi.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/bidi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/datetimeparse_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/datetimeparse_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/datetimesymbols.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/datetimesymbols.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/datetimesymbolsext.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/datetimesymbolsext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/messageformat.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/messageformat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/messageformat_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/messageformat_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/numberformat.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/numberformat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/numberformat_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/numberformat_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/pluralrules.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/i18n/pluralrules.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/iter/iter.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/iter/iter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/iter/iter_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/iter/iter_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/locale/defaultlocalenameconstants.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/locale/defaultlocalenameconstants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/locale/locale.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/locale/locale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/math/bezier_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/math/bezier_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/math/vec3.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/math/vec3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/memoize/memoize.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/memoize/memoize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/abstractchannel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/abstractchannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/deferredchannel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/deferredchannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/deferredchannel_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/deferredchannel_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/multichannel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/multichannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/portchannel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/portchannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/portchannel_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/messaging/portchannel_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/moduleinfo.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/moduleinfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/moduleloader.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/moduleloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/moduleloader_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/moduleloader_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/modulemanager.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/modulemanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/modulemanager_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/module/modulemanager_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/browserchannel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/browserchannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/browserchannel_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/browserchannel_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/browsertestchannel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/browsertestchannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/bulkloader.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/bulkloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/bulkloaderhelper.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/bulkloaderhelper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/channeldebug.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/channeldebug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/cookies.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/cookies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/filedownloader.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/filedownloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/filedownloader_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/filedownloader_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/httpstatus.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/httpstatus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/iframeio.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/iframeio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/iframeio_different_base_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/iframeio_different_base_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/iframeio_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/iframeio_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/iframeloadmonitor.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/iframeloadmonitor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/imageloader.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/imageloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/jsonp.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/jsonp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xhrio.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xhrio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xhrio_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xhrio_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xhrmanager.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xhrmanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/crosspagechannel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/crosspagechannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/crosspagechannel_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/crosspagechannel_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/frameelementmethodtransport.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/frameelementmethodtransport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/iframepollingtransport.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/iframepollingtransport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/iframerelaytransport.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/iframerelaytransport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/nativemessagingtransport.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/nativemessagingtransport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/nativemessagingtransport_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/nativemessagingtransport_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/nixtransport.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/nixtransport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/transport.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/transport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/anchoredviewportposition.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/anchoredviewportposition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/menuanchoredposition.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/menuanchoredposition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/positioning.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/positioning.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/positioning_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/positioning_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/viewportclientposition.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/viewportclientposition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/viewportclientposition_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/viewportclientposition_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/fielddescriptor.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/fielddescriptor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/message.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/message_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/message_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/package_test.pb.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/package_test.pb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/proto_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/proto_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/textformatserializer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/textformatserializer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/textformatserializer_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/proto2/textformatserializer_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/reflect/reflect.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/reflect/reflect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/string/string.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/string/string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/string/string_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/string/string_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/string/stringformat.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/string/stringformat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/string/stringformat_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/string/stringformat_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/avltree.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/avltree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/avltree_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/avltree_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/heap.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/heap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/pool.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/pool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/pool_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/pool_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/prioritypool.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/prioritypool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/prioritypool_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/prioritypool_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/set.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/simplepool.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/simplepool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/treenode.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/treenode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/treenode_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/treenode_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/style/style.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/style/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/style/style_quirks_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/style/style_quirks_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/style/style_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/style/style_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/asserts.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/asserts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/asserts_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/asserts_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/async/mockcontrol_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/async/mockcontrol_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/asynctestcase.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/asynctestcase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/benchmark.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/benchmark.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/deferredtestcase.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/deferredtestcase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/editor/testhelper.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/editor/testhelper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/editor/testhelper_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/editor/testhelper_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/events/events.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/events/events.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/blob.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/blob.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/blob_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/blob_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/directoryentry_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/directoryentry_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/entry.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/entry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/entry_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/entry_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/file.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/fileentry_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/fileentry_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/filewriter.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/filewriter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/filewriter_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/filewriter_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/integration_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/fs/integration_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/functionmock.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/functionmock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/functionmock_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/functionmock_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mock.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mock_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mock_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockclock.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockclock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockcontrol.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockcontrol.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockrandom.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockrandom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockstorage.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockstorage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockstorage_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockstorage_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockuseragent.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/mockuseragent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/multitestrunner.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/multitestrunner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/net/xhrio.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/net/xhrio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/net/xhrio_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/net/xhrio_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/performancetimer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/performancetimer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/performancetimer_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/performancetimer_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/pseudorandom.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/pseudorandom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/pseudorandom_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/pseudorandom_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/recordfunction.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/recordfunction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/recordfunction_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/recordfunction_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/strictmock.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/strictmock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/strictmock_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/strictmock_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/testcase.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/testcase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/ui/rendererasserts.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/ui/rendererasserts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/ui/rendererharness.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/ui/rendererharness.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/timer/timer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/timer/timer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/animatedzippy.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/animatedzippy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/arraymatcher.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/arraymatcher.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/autocomplete.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/autocomplete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/autocomplete_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/autocomplete_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/inputhandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/inputhandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/inputhandler_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/inputhandler_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/renderer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/renderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/renderer_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/autocomplete/renderer_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/bidiinput.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/bidiinput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/button.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/buttonrenderer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/buttonrenderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/buttonrenderer_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/buttonrenderer_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/checkbox.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/checkbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/checkbox_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/checkbox_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/combobox.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/combobox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/combobox_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/combobox_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/component.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/component_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/component_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/container.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/control.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/control.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/control_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/control_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/controlrenderer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/controlrenderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/controlrenderer_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/controlrenderer_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/cookieeditor_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/cookieeditor_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/css3buttonrenderer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/css3buttonrenderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/custombuttonrenderer.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/custombuttonrenderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/datepicker.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/datepicker_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/datepicker_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/dialog.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/dialog_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/dialog_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/drilldownrow.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/drilldownrow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/abstractdialog_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/abstractdialog_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/bubble.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/bubble.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/defaulttoolbar.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/defaulttoolbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/toolbarfactory.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/toolbarfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/emoji/emojipalette.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/emoji/emojipalette.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/gauge.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/gauge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/hovercard.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/hovercard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/hsvapalette.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/hsvapalette.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/iframemask.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/iframemask.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/keyboardshortcuthandler.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/keyboardshortcuthandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/labelinput.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/labelinput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/labelinput_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/labelinput_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/flickr.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/flickr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/mp3.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/mp3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/picasa.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/picasa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/youtube.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/youtube.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/youtube_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/media/youtube_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/menu.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/menubutton.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/menubutton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/menuitem.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/menuitem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/menuitem_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/menuitem_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/offlinestatuscomponent.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/offlinestatuscomponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/popupbase.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/popupbase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/popupbase_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/popupbase_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/prompt.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/prompt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/roundedpanel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/roundedpanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/scrollfloater.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/scrollfloater.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/scrollfloater_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/scrollfloater_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/select.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/select_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/select_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/selectionmenubutton.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/selectionmenubutton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/selectionmodel.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/selectionmodel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/serverchart.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/serverchart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/serverchart_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/serverchart_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/sliderbase.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/sliderbase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/sliderbase_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/sliderbase_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/splitbehavior.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/splitbehavior.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tablesorter.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tablesorter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tablesorter_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tablesorter_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tooltip.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tooltip_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tooltip_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tree/basenode.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/tree/basenode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/twothumbslider.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/twothumbslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/zippy.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/zippy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/zippy_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/zippy_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/uri/uri.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/uri/uri.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/uri/uri_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/uri/uri_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/uri/utils.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/uri/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/uri/utils_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/uri/utils_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/useragent/platform.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/useragent/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/useragent/platform_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/useragent/platform_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/useragent/useragent.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/useragent/useragent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/vec3.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/vec3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/vec3_test.html" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/vec3_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/window/window.js" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/window/window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" afterPath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="closure-maven.iws" />
@@ -446,37 +78,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="70" selection-start="4082" selection-end="4082" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClosureCompilerMojo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="26" selection-start="5992" selection-end="5992" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Pass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="65" selection-start="5612" selection-end="5612" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimplePass.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SimplePass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/SimplePass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0952381">
+            <state line="3" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -485,7 +90,34 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archetype/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="-1.3861672">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="62" selection-start="2648" selection-end="2664" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archetype-metadata.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -521,7 +153,7 @@
       <file leaf-file-name="closure-maven.iws" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/closure-maven.iws">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="893" column="38" selection-start="149108" selection-end="149108" vertical-scroll-proportion="0.0">
+            <state line="464" column="38" selection-start="22830" selection-end="22830" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -550,16 +182,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/archetype/pom.xml" />
         <option value="$PROJECT_DIR$/compiler-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/library-wrapper/pom.xml" />
         <option value="$PROJECT_DIR$/package-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/closure-maven.iws" />
         <option value="$PROJECT_DIR$/package-plugin/src/main/java/com/github/urmuzov/closuremaven/packageplugin/ClosurePackageMojo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java" />
         <option value="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Pass.java" />
         <option value="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/SimplePass.java" />
+        <option value="$PROJECT_DIR$/archetype/pom.xml" />
+        <option value="$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
       </list>
     </option>
   </component>
@@ -603,7 +237,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -632,117 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="package-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library-wrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library-wrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library-wrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compiler-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compiler-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closurecompilermavenplugin" />
+              <option name="myItemId" value="archetype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -759,23 +283,69 @@
               <option name="myItemId" value="archetype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="closure-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="closure-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype-resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Maven.clean install">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -984,7 +554,7 @@
             <option name="jreName" value="1.6" />
             <option name="mavenProperties">
               <map>
-                <entry key="altDeploymentRepository" value="urmuzov-snapshots::default::file:../maven-repository-pages/snapshots" />
+                <entry key="altDeploymentRepository" value="urmuzov-snapshots::default::file:../maven-repository/snapshots" />
               </map>
             </option>
             <option name="runMavenInBackground" value="true" />
@@ -1031,7 +601,7 @@
             <option name="jreName" value="1.6" />
             <option name="mavenProperties">
               <map>
-                <entry key="altDeploymentRepository" value="urmuzov-releases::default::file:../maven-repository-pages/releases" />
+                <entry key="altDeploymentRepository" value="urmuzov-releases::default::file:../maven-repository/releases" />
               </map>
             </option>
             <option name="runMavenInBackground" value="true" />
@@ -1096,12 +666,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2990" y="22" width="847" height="1175" extended-state="0" />
+    <frame x="1923" y="22" width="1914" height="1175" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291262" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.6985366" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1114,7 +685,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962757" sideWeight="0.6961165" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47553325" sideWeight="0.7010407" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25804722" sideWeight="0.7010407" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2989593" sideWeight="0.8827839" order="4" side_tool="false" content_ui="tabs" x="87" y="736" width="1799" height="342" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20344636" sideWeight="0.11359223" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -1122,7 +693,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12618122" sideWeight="0.6961165" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1151,7 +721,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debug output changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="archetype updated" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1165,14 +735,36 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Debug output changed" />
+    <MESSAGE value="closure-library updated to r1285" />
+    <MESSAGE value="archetype updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/archetype/pom.xml">
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" />
+        <state line="177" column="26" selection-start="5992" selection-end="5992" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Pass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="65" selection-start="5612" selection-end="5612" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/SimplePass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compiler-plugin/pom.xml">
@@ -1192,7 +784,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/closure-maven.iws">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="893" column="38" selection-start="149108" selection-end="149108" vertical-scroll-proportion="0.0">
+        <state line="464" column="38" selection-start="22830" selection-end="22830" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1202,30 +794,30 @@
         <state line="90" column="61" selection-start="3209" selection-end="3209" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/archetype/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="62" selection-start="2648" selection-end="2664" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="70" selection-start="4082" selection-end="4082" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="26" selection-start="5992" selection-end="5992" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Pass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="65" selection-start="5612" selection-end="5612" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/SimplePass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0952381">
+        <state line="17" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="-1.3861672">
           <folding />
         </state>
       </provider>

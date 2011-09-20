@@ -15,9 +15,140 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ffdecc-84d4-4f1c-bfe9-35cce54f03ac" name="Default" comment="README.md in all modules">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/blobhasher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/blobhasher_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/crypt_perf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/hash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/hash_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/hmac.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/hmac_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/md5_perf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/md5_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/crypt/sha1_perf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/css/editor/equationeditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/db/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/db/db_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/db/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/db/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/db/indexeddb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/db/objectstore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/db/transaction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/console_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/logrecordserializer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/debug/logrecordserializer_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/equationeditorbubble.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/equationeditorplugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/editor/plugins/equationeditorplugin_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/animation_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/css3/fx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/css3/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/css3/transition_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/fx/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/context.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/dispatcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/dispatcher_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/eventcontract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/eventcontract_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/jsprops.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/jsprops_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/replay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/jsaction/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/math/exponentialbackoff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/math/exponentialbackoff_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/ipaddress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/ipaddress_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/websocket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/websocket_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/net/xpc/crosspagechannelrole.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/positioning/menuanchoredposition_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/pubsub/pubsub_perf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/soy/renderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/soy/renderer_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/soy/soy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/soy/soy_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/soy/soy_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/stats/basicstat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/stats/basicstat_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/collectablestorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/collectablestorage_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/encryptedstorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/encryptedstorage_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/errorcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/expiringstorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/expiringstorage_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/errorcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/html5localstorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/html5localstorage_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/ieuserdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/ieuserdata_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/iterablemechanism.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/iterablemechanism_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/mechanism.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/mechanism_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/mechanismfactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/mechanismfactory_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/prefixedmechanism.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/prefixedmechanism_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/mechanism/prefixedmechanism_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/richstorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/richstorage_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/storage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/storage_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/storage/storage_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/collection_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/structs/set_perf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/style/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/style/transition_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/asynctestcase_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/shardingtestcase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/testing/shardingtestcase_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/button_perf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/checkboxrenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/container_perf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/control_perf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/drilldownrow_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/equationeditordialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/editor/equationeditorokevent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/arrowpalette.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/changeevent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/comparisonpalette.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/editorpane.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/equationeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/equationeditordialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/greekpalette.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/imagerenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/mathpalette.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/menupalette.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/palette.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/palettemanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/symbolpalette.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/texeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/equation/texpane.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/modalpopup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/modalpopup_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/ui/selectionmodel_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/mat3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/mat3_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/mat4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/mat4_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/matrix3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/matrix3_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/matrix4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/matrix4_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/quaternion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/quaternion_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/ray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/ray_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/vec4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/vec4_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/src/main/resources/com/github/urmuzov/closuremaven/librarywrapper/javascript/goog/vec/vec_perf.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rus.md" afterPath="$PROJECT_DIR$/README.rus.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure-maven.iws" afterPath="$PROJECT_DIR$/closure-maven.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiler-plugin/README.md" afterPath="$PROJECT_DIR$/compiler-plugin/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiler-plugin/README.rus.md" afterPath="$PROJECT_DIR$/compiler-plugin/README.rus.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="closure-maven.iws" />
@@ -80,16 +211,52 @@
       <file leaf-file-name="ClosureCompilerMojo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="47" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+            <state line="80" column="45" selection-start="2088" selection-end="2113" vertical-scroll-proportion="-13.08">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archetype-metadata.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
+      <file leaf-file-name="Pass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Pass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+            <state line="58" column="18" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="6" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="29" selection-start="492" selection-end="513" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompilationLevel.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/javascript/closure-compiler/r1352/closure-compiler-r1352.jar!/com/google/javascript/jscomp/CompilationLevel.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="128" selection-start="215" selection-end="318" vertical-scroll-proportion="-4.32">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-6-sun/jre/lib/rt.jar!/java/util/logging/Level.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="42" selection-start="459" selection-end="464" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,33 +266,6 @@
         <entry file="file://$PROJECT_DIR$/compiler-plugin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="22" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library-wrapper/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-plugin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="closure-maven.iws" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/closure-maven.iws">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="481" column="38" selection-start="23625" selection-end="23625" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,27 +281,18 @@
         </entry>
       </file>
       <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compiler-plugin/README.rus.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="35" selection-start="3832" selection-end="3832" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rus.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rus.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="4255" selection-end="4255" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-plugin/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="111" selection-start="173" selection-end="173" vertical-scroll-proportion="0.106930695">
+            <state line="5" column="0" selection-start="0" selection-end="113" vertical-scroll-proportion="0.1317716">
               <folding />
             </state>
           </provider>
@@ -181,9 +312,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/compiler-plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/library-wrapper/pom.xml" />
-        <option value="$PROJECT_DIR$/package-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/closure-maven.iws" />
         <option value="$PROJECT_DIR$/package-plugin/src/main/java/com/github/urmuzov/closuremaven/packageplugin/ClosurePackageMojo.java" />
         <option value="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java" />
@@ -191,12 +319,15 @@
         <option value="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/SimplePass.java" />
         <option value="$PROJECT_DIR$/archetype/pom.xml" />
         <option value="$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
         <option value="$USER_HOME$/.m2/settings.xml" />
-        <option value="$PROJECT_DIR$/README.rus.md" />
         <option value="$PROJECT_DIR$/package-plugin/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/README.rus.md" />
+        <option value="$PROJECT_DIR$/compiler-plugin/README.md" />
+        <option value="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Utils.java" />
+        <option value="$PROJECT_DIR$/compiler-plugin/README.rus.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -692,7 +823,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="19" width="1914" height="1175" extended-state="0" />
+    <frame x="1923" y="22" width="1914" height="1175" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291262" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -709,8 +840,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962757" sideWeight="0.6961165" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19903433" sideWeight="0.70198673" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29787233" sideWeight="0.895082" order="4" side_tool="false" content_ui="tabs" x="87" y="736" width="1799" height="342" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19903433" sideWeight="0.70293283" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29706717" sideWeight="0.895082" order="4" side_tool="false" content_ui="tabs" x="87" y="736" width="1799" height="342" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20344636" sideWeight="0.11359223" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291262" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -773,70 +904,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Pass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="65" selection-start="5612" selection-end="5612" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/SimplePass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archetype/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="3311" selection-end="3311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="62" selection-start="2648" selection-end="2664" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library-wrapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-plugin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/closure-maven.iws">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="481" column="38" selection-start="23625" selection-end="23625" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="47" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-plugin/src/main/java/com/github/urmuzov/closuremaven/packageplugin/ClosurePackageMojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="95" selection-start="1925" selection-end="1988" vertical-scroll-proportion="0.0">
+        <state line="612" column="38" selection-start="48874" selection-end="48874" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -844,13 +914,6 @@
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="40" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.3049505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rus.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="4255" selection-end="4255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -864,7 +927,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="111" selection-start="173" selection-end="173" vertical-scroll-proportion="0.106930695">
+        <state line="6" column="48" selection-start="0" selection-end="173" vertical-scroll-proportion="0.106930695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="126" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun/jre/lib/rt.jar!/java/util/logging/Level.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="459" selection-end="464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/javascript/closure-compiler/r1352/closure-compiler-r1352.jar!/com/google/javascript/jscomp/CompilationLevel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="128" selection-start="215" selection-end="318" vertical-scroll-proportion="-4.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/javascript/closure-compiler/r1352/closure-compiler-r1352.jar!/com/google/javascript/jscomp/WarningLevel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="91" selection-start="211" selection-end="277" vertical-scroll-proportion="0.109644674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-plugin/src/main/java/com/github/urmuzov/closuremaven/packageplugin/ClosurePackageMojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="95" selection-start="1925" selection-end="1988" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Pass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="18" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="29" selection-start="492" selection-end="513" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="45" selection-start="2088" selection-end="2113" vertical-scroll-proportion="-13.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/README.rus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="35" selection-start="3832" selection-end="3832" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="0" selection-end="113" vertical-scroll-proportion="0.1317716">
           <folding />
         </state>
       </provider>

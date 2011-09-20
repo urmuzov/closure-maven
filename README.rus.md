@@ -13,9 +13,9 @@
 
 Для работы требуется **maven3 и выше**. Последнюю версию можно взять с [сайта проекта](http://maven.apache.org/download.html) или при помощи менеждера пакетов вашего дистрибутива.
 
-Артефакты находятся в [репозитории на гитхабе](http://urmuzov.github.com/maven-repository), подробная информация о перозитории на [его странице](https://github.com/urmuzov/maven-repository)
+Артефакты находятся в [репозитории на гитхабе](http://urmuzov.github.com/maven-repository), подробная информация о репозитории на [его странице](https://github.com/urmuzov/maven-repository)
 
-Для подключения репозиторя, добавьте следующие строки в ваш pom.xml
+Для подключения репозитория, добавьте следующие строки в ваш pom.xml
 
     ...
     <repositories>

@@ -11,8 +11,7 @@
         <module>compiler-plugin</module>
         <module>archetype</module>
         <module>library-wrapper</module>
-    <module>test-artifact</module>
-  </modules>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

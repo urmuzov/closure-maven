@@ -17,7 +17,7 @@
                 Включен ли вывод отладочной информации
         -->
         <passes>desktop mobile</passes>
-        <input.closurePackage>${package}</input.closurePackage>
+        <input.closurePackage>${packageInPathFormat}</input.closurePackage>
         <input.debug.maven>false</input.debug.maven>
         <input.debug.javascript>false</input.debug.javascript>
 
@@ -43,9 +43,9 @@
         <output.closure.js.suffix><![CDATA[]]></output.closure.js.suffix>
         <input.closure.goog.base>goog/base.js</input.closure.goog.base>
         <packaging.type>war</packaging.type>
-        <closureCompilerMavenPlugin.version>1.0.1</closureCompilerMavenPlugin.version>
-        <closurePackageMavenPlugin.version>1.0.1</closurePackageMavenPlugin.version>
-        <closureLibraryMavenWrapper.version>1.0.1</closureLibraryMavenWrapper.version>
+        <closureCompilerMavenPlugin.version>${archetypeVersion}</closureCompilerMavenPlugin.version>
+        <closurePackageMavenPlugin.version>${archetypeVersion}</closurePackageMavenPlugin.version>
+        <closureLibraryMavenWrapper.version>${archetypeVersion}</closureLibraryMavenWrapper.version>
     </properties>
 
     <dependencies>

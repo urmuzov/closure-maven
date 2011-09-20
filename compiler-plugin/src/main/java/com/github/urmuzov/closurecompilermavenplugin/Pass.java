@@ -4,6 +4,7 @@ import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugin.logging.Log;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Pass {
@@ -56,13 +57,13 @@ public class Pass {
      */
     protected File outputFile;
 
-    public String getLoggingLevel(boolean debug, Log log, String parentloggingLevel) {
-        String out = parentloggingLevel;
+    public String getLoggingLevel(boolean debug, Log log, String parentLoggingLevel) {
+        String out = parentLoggingLevel;
 
         if (this.loggingLevel != null)
             out = this.loggingLevel;
 
-        Utils.log(debug, log, "loggingLevel: " + out + " (pass: " + this.loggingLevel + ", parent: " + parentloggingLevel + ")");
+        Utils.log(debug, log, "loggingLevel: " + out + " (pass: " + this.loggingLevel + ", parent: " + parentLoggingLevel + ")");
 
         return out;
     }
@@ -139,6 +140,10 @@ public class Pass {
         if (this.externs != null)
             out = this.externs;
 
+        if (out == null) {
+            out = new ArrayList<File>();
+        }
+
         Utils.log(debug, log, "externs: " + (out == null ? null : out.size()) + " (pass: " + (this.externs == null ? null : this.externs.size()) + ", parent: " + (parentExterns == null ? null : parentExterns.size()) + ")");
 
         return out;
@@ -149,6 +154,10 @@ public class Pass {
 
         if (this.sources != null)
             out = this.sources;
+
+        if (out == null) {
+            out = new ArrayList<File>();
+        }
 
         Utils.log(debug, log, "sources: " + (out == null ? null : out.size()) + " (pass: " + (this.sources == null ? null : this.sources.size()) + ", parent: " + (parentSources == null ? null : parentSources.size()) + ")");
 

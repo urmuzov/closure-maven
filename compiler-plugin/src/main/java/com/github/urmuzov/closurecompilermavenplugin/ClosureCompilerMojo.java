@@ -91,12 +91,10 @@ public class ClosureCompilerMojo extends AbstractMojo {
     private boolean addDefaultExterns = false;
     /**
      * @parameter
-     * @required
      */
     private List<File> externs = null;
     /**
      * @parameter
-     * @required
      */
     private List<File> sources = null;
     /**

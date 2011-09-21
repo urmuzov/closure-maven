@@ -34,7 +34,7 @@
             </plugin>
             ...
 
-Обратите внимание, что в ващем проекте, вместо `${project.version}` **нужно** будет указывать конкретную версию плагина, поскольку в вашем проекте `${project.version}` будет версией вашего проекта.
+Обратите внимание, что в ващем проекте, вместо `${project.version}` **нужно** будет указывать конкретную версию плагина, поскольку у вас `${project.version}` будет версией **вашего** проекта.
 
 Конфигурация
 ============
@@ -53,7 +53,7 @@
     function onLoad() {
     ...
 
-будет зкомпилироваться в ошибкой
+будет компилироваться с ошибкой
 
     21.09.2011 10:58:02 com.google.javascript.jscomp.LoggerErrorManager println
     SEVERE: /home/username/closure-maven/examples/compiler-plugin-example1/src/main/webapp/main.entry.js:6: ERROR - variable goog is undeclared

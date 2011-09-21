@@ -15,31 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ffdecc-84d4-4f1c-bfe9-35cce54f03ac" name="Default" comment="Version 1.0.2-SNAPSHOT.&#10;Remove useless idea project files.&#10;A">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/compiler-plugin-example1/README.rus.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/main.entry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/script.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.ipr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.ipr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library-wrapper/closure-library-wrapper.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library-wrapper/closure-library-wrapper.ipr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library-wrapper/closure-library-wrapper.iws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.ipr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iws" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archetype/pom.xml" afterPath="$PROJECT_DIR$/archetype/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/compiler-plugin-example1/closure-compiler-maven-plugin-example1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/compiler-plugin-example1/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure-maven.ipr" afterPath="$PROJECT_DIR$/closure-maven.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure-maven.iws" afterPath="$PROJECT_DIR$/closure-maven.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiler-plugin/README.rus.md" afterPath="$PROJECT_DIR$/compiler-plugin/README.rus.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiler-plugin/pom.xml" afterPath="$PROJECT_DIR$/compiler-plugin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-wrapper/pom.xml" afterPath="$PROJECT_DIR$/library-wrapper/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-plugin/pom.xml" afterPath="$PROJECT_DIR$/package-plugin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/compiler-plugin-example1/README.rus.md" afterPath="$PROJECT_DIR$/examples/compiler-plugin-example1/README.rus.md" />
     </list>
     <ignored path="closure-maven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,6 +83,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="96" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.5524753">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,28 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compiler-plugin/README.rus.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClosureCompilerMojo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="653" selection-end="660" vertical-scroll-proportion="0.0">
+            <state line="284" column="13" selection-start="10036" selection-end="10036" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,7 +113,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-2.7692308">
+            <state line="4" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,14 +131,23 @@
       <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/README.rus.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="51" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+            <state line="55" column="23" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compiler-plugin-example1.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/compiler-plugin-example1.iml">
+      <file leaf-file-name="closure-compiler-maven-plugin-example1.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/closure-compiler-maven-plugin-example1.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.rus.md">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -170,8 +155,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rus.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.rus.md">
+      <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library-wrapper/README.rus.md">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -214,10 +199,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/script.js" />
-        <option value="$PROJECT_DIR$/compiler-plugin/README.rus.md" />
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example1/pom.xml" />
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/main.entry.js" />
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example1/README.rus.md" />
+        <option value="$PROJECT_DIR$/compiler-plugin/README.rus.md" />
       </list>
     </option>
   </component>
@@ -261,6 +246,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Favorites" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -477,10 +464,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closurecompilermavenplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -498,23 +481,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -860,7 +841,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="19" width="1914" height="1175" extended-state="0" />
+    <frame x="1923" y="22" width="1914" height="1175" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291262" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -877,8 +858,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962757" sideWeight="0.6961165" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17650215" sideWeight="0.705771" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29422894" sideWeight="0.895082" order="4" side_tool="false" content_ui="tabs" x="87" y="736" width="1799" height="342" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18186696" sideWeight="0.705771" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29417205" sideWeight="0.895082" order="4" side_tool="false" content_ui="tabs" x="87" y="736" width="1799" height="342" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20344636" sideWeight="0.11359223" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291262" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -941,25 +922,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/closure-maven.iws">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="12" selection-start="6409" selection-end="6409" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archetype/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="387" selection-end="387" vertical-scroll-proportion="0.106930695">
-          <folding />
-        </state>
+        <state line="6" column="31" selection-start="387" selection-end="387" vertical-scroll-proportion="0.106930695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compiler-plugin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="390" selection-end="390" vertical-scroll-proportion="0.106930695">
-          <folding />
-        </state>
+        <state line="6" column="31" selection-start="390" selection-end="390" vertical-scroll-proportion="0.106930695" />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-6-sun/jre/lib/rt.jar!/java/util/logging/Level.class">
@@ -969,84 +939,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library-wrapper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="391" selection-end="391" vertical-scroll-proportion="0.12244898">
-          <folding />
-        </state>
+        <state line="7" column="31" selection-start="391" selection-end="391" vertical-scroll-proportion="0.12244898" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-plugin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="384" selection-end="384" vertical-scroll-proportion="0.12244898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="58" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="31" selection-start="384" selection-end="384" vertical-scroll-proportion="0.12244898" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="653" selection-end="660" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/README.rus.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="17" selection-start="653" selection-end="660" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-2.7692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/main.entry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="53" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="3" column="26" selection-start="53" selection-end="79" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/closure-compiler-maven-plugin-example1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/pom.xml">
+    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library-wrapper/README.rus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/README.rus.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="51" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+        <state line="55" column="23" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/compiler-plugin-example1.iml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="58" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/README.rus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="13" selection-start="10036" selection-end="10036" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rus.md">
+    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="31" column="96" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.5524753">
           <folding />
         </state>
       </provider>

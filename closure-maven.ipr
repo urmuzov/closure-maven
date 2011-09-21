@@ -33,7 +33,7 @@
         <element id="javaee-facet-resources" facet="compiler-plugin-example1/web/Web" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
-            <element id="module-output" name="compiler-plugin-example1" />
+            <element id="module-output" name="closure-compiler-maven-plugin-example1" />
           </element>
         </element>
       </root>
@@ -231,11 +231,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" filepath="$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" filepath="$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/compiler-plugin-example1/closure-compiler-maven-plugin-example1.iml" filepath="$PROJECT_DIR$/examples/compiler-plugin-example1/closure-compiler-maven-plugin-example1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" filepath="$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" filepath="$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/closure-maven.iml" filepath="$PROJECT_DIR$/closure-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" filepath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" filepath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" />
       <module fileurl="file://$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" filepath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/examples/compiler-plugin-example1/compiler-plugin-example1.iml" filepath="$PROJECT_DIR$/examples/compiler-plugin-example1/compiler-plugin-example1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" filepath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" />
     </modules>
   </component>
   <component name="ProjectResources">

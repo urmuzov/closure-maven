@@ -9,11 +9,11 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.urmuzov</groupId>
-    <artifactId>closure-compiler-maven-plugin-example1</artifactId>
+    <artifactId>closure-compiler-maven-plugin-example2</artifactId>
     <version>1.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>closure-compiler-maven-plugin-example1</name>
+    <name>closure-compiler-maven-plugin-example2</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -44,12 +44,17 @@
                 <version>${project.version}</version>
                 <configuration>
                     <addDefaultExterns>true</addDefaultExterns>
+                    <sources>
+                        <source>${basedir}/src/main/resources/</source>
+                    </sources>
                     <passes>
                         <pass>
-                            <sources>
-                                <source>${basedir}/src/main/resources/</source>
-                            </sources>
-                            <outputFile>${project.build.directory}/${project.build.finalName}/main.js</outputFile>
+                            <entryFile>${basedir}/src/main/resources/desktop.entry.js</entryFile>
+                            <outputFile>${project.build.directory}/${project.build.finalName}/desktop.js</outputFile>
+                        </pass>
+                        <pass>
+                            <entryFile>${basedir}/src/main/resources/mobile.entry.js</entryFile>
+                            <outputFile>${project.build.directory}/${project.build.finalName}/mobile.js</outputFile>
                         </pass>
                     </passes>
                 </configuration>
@@ -108,7 +113,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>closure-compiler-maven-plugin-example1</finalName>
+        <finalName>closure-compiler-maven-plugin-example2</finalName>
     </build>
 
 </project>

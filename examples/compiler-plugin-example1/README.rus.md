@@ -3,7 +3,7 @@
 
 Этот пример представляет собой самое простое использование компилятора. Проект был сгенерирован при помощи архетипа для Java Web Application.
 
-Нужно скомпилировать точку входа `main.entry.js` и файл с функциями `script.js`, а полученный код подключить в файл `index.html`. Для этого в `pom.xml` были добавлены следующие строки:
+Нужно скомпилировать файлы находящиеся в директории `${basedir}/src/main/resources/`, а полученный код как файл `main.js` подключить в файл `index.html`. Для этого в `pom.xml` были добавлены следующие строки:
 
     <build>
         <plugins>
@@ -16,9 +16,8 @@
                     <passes>
                         <pass>
                             <sources>
-                                <source>${basedir}/src/main/webapp/</source>
+                                <source>${basedir}/src/main/resources/</source>
                             </sources>
-                            <entryFile>${basedir}/src/main/webapp/main.entry.js</entryFile>
                             <outputFile>${project.build.directory}/${project.build.finalName}/main.js</outputFile>
                         </pass>
                     </passes>
@@ -39,13 +38,12 @@
 Конфигурация
 ============
 
-* `addDefaultExterns` необходим, чтоыб компилятор знал, что такое `document`, `document.body`...
+* `addDefaultExterns` необходим, чтобы компилятор знал, что такое `document`, `document.body`...
 * `pass` - единственный проход
-  * `sources` > `source` - единственная папка, в которой у нас лежат исходники
-  * `entryFile` - файл с точкой входа. (его по прежнему необходимо именовать по маске `*.entry.js`)
+  * `sources` > `source` - единственная папка, в которой лежат исходники
   * `outputFile` - файл куда будет компилироваться результат
 
-Обратите внимание, что хоть `generateExports` и включена по-умолчанию, но без указания пути к Google Closure-Library в опции `sources` (или просто копировании исходников в папку `${basedir}/src/main/webapp/`) директива
+Обратите внимание, что хоть `generateExports` и включена по-умолчанию, но без указания пути к Google Closure-Library в опции `sources` (или просто копировании исходников в папку `${basedir}/src/main/resources/`) директива
 
     /**
      * @export

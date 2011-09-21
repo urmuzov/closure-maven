@@ -52,7 +52,7 @@ compiler-plugin
 * опцию `addDefaultExterns` для добавления включенных в поставку экстернов;
 * опции для отладки.
 
-Информацию по настройке плагина смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/compiler-plugin)
+Информацию по настройке плагина смотрите [здесь](https://github.com/urmuzov/closure-maven/blob/master/compiler-plugin/README.rus.md)
 
 package-plugin
 --------------
@@ -64,14 +64,14 @@ package-plugin
 1. распаковывает все closure-package, которые может найти в classpath в `${project.build.directory}/closure` (откуда их в дальнейшем может взять compiler-plugin); 
 2. собирает текущий проект в один или несколько closure-package согласно файлу `${project.build.directory}/classes/META-INF/closure-packages.properties`.
 
-Информацию по настройке плагина смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/package-plugin)
+Информацию по настройке плагина смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/package-plugin/README.rus.md)
 
 library-wrapper
 ---------------
 
 Обертка превращающая Google Closure-Library в closure-package.
 
-Подробнее на [этой странице](https://github.com/urmuzov/closure-maven/tree/master/library-wrapper)
+Подробнее на [этой странице](https://github.com/urmuzov/closure-maven/tree/master/library-wrapper/README.rus.md)
 
 archetype
 ---------
@@ -92,4 +92,4 @@ archetype
  
 Следующие 4 параметра определяют название группы, артефакта, версию и пакет (опционально) в котором будет лежать стандартная структура closure-package.
 
-Подробнее об архетипе смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/package-plugin)
+Подробнее об архетипе смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/package-plugin/README.rus.md)

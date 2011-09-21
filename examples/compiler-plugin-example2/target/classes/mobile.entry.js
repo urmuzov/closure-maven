@@ -1,4 +1,4 @@
 function onLoad() {
-    appendCurrentDateToBody();
+    renderMobileVersion();
 }
 window['onLoad'] = onLoad;

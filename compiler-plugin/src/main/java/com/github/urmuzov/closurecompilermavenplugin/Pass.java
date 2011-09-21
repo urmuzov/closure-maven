@@ -48,7 +48,6 @@ public class Pass {
     private List<File> sources = null;
     /**
      * @parameter
-     * @required
      */
     protected File entryFile;
     /**
@@ -165,12 +164,6 @@ public class Pass {
     }
 
     public File getEntryFile() throws MojoFailureException {
-        if (entryFile == null) {
-            throw new MojoFailureException("entryFile is required for pass");
-        }
-        if (!entryFile.isFile()) {
-            throw new MojoFailureException("entryFile (" + entryFile + ") is not a file");
-        }
         return entryFile;
     }
 

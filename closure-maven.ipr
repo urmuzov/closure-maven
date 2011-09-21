@@ -38,6 +38,57 @@
         </element>
       </root>
     </artifact>
+    <artifact type="war" name="closure-compiler-maven-plugin-example1 (2):war">
+      <output-path>$PROJECT_DIR$/examples/compiler-plugin-example2/target</output-path>
+      <root id="archive" name="closure-compiler-maven-plugin-example2.war">
+        <element id="artifact" artifact-name="closure-compiler-maven-plugin-example1 (2):war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="closure-compiler-maven-plugin-example1 (2):war exploded">
+      <output-path>$PROJECT_DIR$/examples/compiler-plugin-example2/target/closure-compiler-maven-plugin-example2</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="closure-compiler-maven-plugin-example1 (2)/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="closure-compiler-maven-plugin-example2" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="war" name="closure-compiler-maven-plugin-example1:war">
+      <output-path>$PROJECT_DIR$/examples/compiler-plugin-example1/target</output-path>
+      <root id="archive" name="closure-compiler-maven-plugin-example1.war">
+        <element id="artifact" artifact-name="closure-compiler-maven-plugin-example1:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="closure-compiler-maven-plugin-example1:war exploded">
+      <output-path>$PROJECT_DIR$/examples/compiler-plugin-example1/target/closure-compiler-maven-plugin-example1</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="closure-compiler-maven-plugin-example1/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="closure-compiler-maven-plugin-example1" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="war" name="closure-compiler-maven-plugin-example2:war">
+      <output-path>$PROJECT_DIR$/examples/compiler-plugin-example2/target</output-path>
+      <root id="archive" name="closure-compiler-maven-plugin-example2.war">
+        <element id="artifact" artifact-name="closure-compiler-maven-plugin-example2:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="closure-compiler-maven-plugin-example2:war exploded">
+      <output-path>$PROJECT_DIR$/examples/compiler-plugin-example2/target/closure-compiler-maven-plugin-example2</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="closure-compiler-maven-plugin-example2/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="closure-compiler-maven-plugin-example2" />
+          </element>
+        </element>
+      </root>
+    </artifact>
   </component>
   <component name="ClearCaseSharedConfig">
     <option name="myUseUcmModel" value="true" />
@@ -73,6 +124,9 @@
     <autodetection-disabled>
       <facet-type id="web">
         <modules>
+          <module name="closure-compiler-maven-plugin-example1" />
+          <module name="closure-compiler-maven-plugin-example1 (2)" />
+          <module name="closure-compiler-maven-plugin-example2" />
           <module name="compiler-plugin-example1" />
           <module name="test-artifact" />
         </modules>
@@ -231,14 +285,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" filepath="$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" filepath="$PROJECT_DIR$/compiler-plugin/closure-compiler-maven-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/examples/compiler-plugin-example1/closure-compiler-maven-plugin-example1.iml" filepath="$PROJECT_DIR$/examples/compiler-plugin-example1/closure-compiler-maven-plugin-example1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" filepath="$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/compiler-plugin-example2/closure-compiler-maven-plugin-example2.iml" filepath="$PROJECT_DIR$/examples/compiler-plugin-example2/closure-compiler-maven-plugin-example2.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" filepath="$PROJECT_DIR$/library-wrapper/closure-library-maven-wrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/closure-maven.iml" filepath="$PROJECT_DIR$/closure-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" filepath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" filepath="$PROJECT_DIR$/archetype/closure-package-maven-archetype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" filepath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" filepath="$PROJECT_DIR$/package-plugin/closure-package-maven-plugin.iml" />
     </modules>
   </component>

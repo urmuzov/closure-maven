@@ -164,7 +164,9 @@ public class ClosureCompilerMojo extends AbstractMojo {
             List<File> effSources = pass.getSources(debug, log, this.sources);
             sourcesCollector.collectFiles(effSources, Pattern.compile(Utils.wildcardToRegex(entryFileMask)));
             File entryFile = pass.getEntryFile();
-            sourcesCollector.collectFile(entryFile, null);
+            if (entryFile != null && entryFile.exists() && entryFile.isFile()) {
+                sourcesCollector.collectFile(entryFile, null);
+            }
 
             Utils.logExterns(logExternFiles, log, externsCollector);
             Utils.logSources(logSourceFiles, log, sourcesCollector);

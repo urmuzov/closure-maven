@@ -18,9 +18,17 @@
         <configuration>
             ... здесь задаются опции ...
         </configuration>
+        <executions>
+            <execution>
+                <phase>compile</phase>
+                <goals>
+                    <goal>compile</goal>
+                </goals>
+            </execution>
+        </executions>
     </plugin>
     ...
-    
+
 Каждая опция из списка ниже превращается в тег вида `<названиеОпции>значение</названиеОпции>` и добавляется в тег `<configuration>`
 Например:
 
@@ -29,6 +37,8 @@
             <compilationLevel>WHITESPACE_ONLY</compilationLevel>
             ...
         </configuration>
+
+Тег `<executions>` определяет в какую фазу сборки проекта будет запускаться плагин, если убрать этот тег плагин нужно будет запускать из командной строки вручную.
 
 Точки входа
 ===========

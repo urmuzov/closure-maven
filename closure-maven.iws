@@ -14,9 +14,11 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55ffdecc-84d4-4f1c-bfe9-35cce54f03ac" name="Default" comment="Version 1.0.2-SNAPSHOT.&#10;Remove useless idea project files.&#10;A">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archetype/README.rus.md" afterPath="$PROJECT_DIR$/archetype/README.rus.md" />
+    <list default="true" id="55ffdecc-84d4-4f1c-bfe9-35cce54f03ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml" afterPath="$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archetypetest.sh" afterPath="$PROJECT_DIR$/archetypetest.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure-maven.iws" afterPath="$PROJECT_DIR$/closure-maven.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java" afterPath="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java" />
     </list>
     <ignored path="closure-maven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,51 +78,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/README.rus.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="57" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/resources/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="36" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="1315" selection-end="2729" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/README.rus.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rus.md">
           <provider selected="true" editor-type-id="text-editor">
             <state line="89" column="0" selection-start="3426" selection-end="3806" vertical-scroll-proportion="0.0">
@@ -129,10 +86,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rus.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.rus.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archetype/README.rus.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="23" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.871875">
+            <state line="34" column="2" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClosureCompilerMojo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="188" column="13" selection-start="6519" selection-end="6519" vertical-scroll-proportion="1.9813486">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="168" column="35" selection-start="6370" selection-end="6370" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,7 +116,34 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="518" column="19" selection-start="22603" selection-end="22606" vertical-scroll-proportion="-253.08">
+            <state line="128" column="52" selection-start="5608" selection-end="5608" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archetypetest.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archetypetest.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="2" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="closure-maven.iws" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/closure-maven.iws">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,9 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/examples/compiler-plugin-example1/src/main/webapp/script.js" />
-        <option value="$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/mobile.entry.js" />
-        <option value="$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/desktop.entry.js" />
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/desktop.html" />
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/mobile.html" />
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/index.html" />
@@ -193,8 +192,11 @@
         <option value="$PROJECT_DIR$/examples/compiler-plugin-example2/README.rus.md" />
         <option value="$PROJECT_DIR$/README.rus.md" />
         <option value="$PROJECT_DIR$/package-plugin/README.rus.md" />
-        <option value="$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml" />
         <option value="$PROJECT_DIR$/archetype/README.rus.md" />
+        <option value="$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/archetypetest.sh" />
+        <option value="$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml" />
       </list>
     </option>
   </component>
@@ -205,6 +207,40 @@
         <option name="keepSourceFolders" value="false" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="closure-compiler-maven-plugin" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="closure-compiler-maven-plugin" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
@@ -238,7 +274,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,6 +290,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="closure-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="closure-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="closure-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compiler-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="closure-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="closure-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compiler-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="closurecompilermavenplugin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,8 +409,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Favorites" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -692,7 +772,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="25" width="1848" height="1175" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.6985366" order="4" side_tool="false" content_ui="tabs" />
@@ -701,15 +781,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297561" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297561" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291262" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20344636" sideWeight="0.20873787" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962757" sideWeight="0.6961165" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.70731705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18151447" sideWeight="0.6702439" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29365852" sideWeight="0.895082" order="4" side_tool="false" content_ui="tabs" x="87" y="736" width="1799" height="342" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18151447" sideWeight="0.70731705" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29268292" sideWeight="0.895082" order="4" side_tool="false" content_ui="tabs" x="87" y="736" width="1799" height="342" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20344636" sideWeight="0.11359223" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291262" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -746,7 +826,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md in all modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archetype README" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -763,6 +843,7 @@
     <MESSAGE value="closure-library updated to r1285" />
     <MESSAGE value="archetype updated" />
     <MESSAGE value="README.md in all modules" />
+    <MESSAGE value="Archetype README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -772,31 +853,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/desktop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.7692308" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/resources/mobile.entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/closure-compiler-maven-plugin-example2.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler-plugin/README.rus.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="129" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example1/README.rus.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="57" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0" />
@@ -809,9 +865,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="36" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/pom.xml">
@@ -819,49 +873,70 @@
         <state line="69" column="0" selection-start="1315" selection-end="2729" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-plugin/README.rus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/README.rus.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="0" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.rus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="0" selection-start="3426" selection-end="3806" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archetype/README.rus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="2" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="35" selection-start="6370" selection-end="6370" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/closure-maven.iws">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archetype/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/compiler-plugin-example2/src/main/webapp/mobile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+        <state line="4" column="27" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-plugin/README.rus.md">
+    <entry file="file://$PROJECT_DIR$/archetypetest.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archetype/src/main/resources/archetype-resources/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="518" column="19" selection-start="22603" selection-end="22606" vertical-scroll-proportion="-253.08">
+        <state line="128" column="52" selection-start="5608" selection-end="5608" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rus.md">
+    <entry file="file://$PROJECT_DIR$/compiler-plugin/src/main/java/com/github/urmuzov/closurecompilermavenplugin/ClosureCompilerMojo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="3426" selection-end="3806" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archetype/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archetype/README.rus.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.871875">
+        <state line="188" column="13" selection-start="6519" selection-end="6519" vertical-scroll-proportion="1.9813486">
           <folding />
         </state>
       </provider>

@@ -14,7 +14,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 import java.util.regex.Pattern;
 
 /**
@@ -200,26 +199,6 @@ public class ClosureCompilerMojo extends AbstractMojo {
                 Utils.log(true, log, "file size: " + outputFile.getName() + " -> " + outputFile.length() + " bytes");
             } catch (IOException e) {
                 throw new MojoFailureException(outputFile != null ? outputFile.toString() : e.getMessage(), e);
-            }
-
-            if (pass instanceof SimplePass) {
-                SimplePass simplePass = (SimplePass) pass;
-                Properties props = mavenProject.getProperties();
-                String prefixProperty = "output.closure.js.prefix";
-                String prefix = props.getProperty(prefixProperty);
-                String suffixProperty = "output.closure.js.suffix";
-                String suffix = props.getProperty(suffixProperty);
-                if (prefix == null) {
-                    throw new MojoFailureException("Can't create simple include property for SimplePass (" + simplePass.getEntryPointName() + ") property " + prefixProperty + " not found");
-                }
-                if (suffix == null) {
-                    throw new MojoFailureException("Can't create simple include property for SimplePass (" + simplePass.getEntryPointName() + ") property " + suffixProperty + " not found");
-                }
-                String propertyName = entryFile.getName();
-                props.setProperty(propertyName,
-                        prefix + simplePass.getEntryPointName() + suffix
-                );
-                Utils.log(true, log, "For simple inclusion use ${" + propertyName + "} in your HTML file");
             }
         }
     }

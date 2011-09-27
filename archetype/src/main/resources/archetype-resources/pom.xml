@@ -120,6 +120,33 @@
             </resource>
         </resources>
         <plugins>
+            <!--
+                WRO
+            -->
+            <plugin>
+                <groupId>ro.isdc.wro4j</groupId>
+                <artifactId>wro4j-maven-plugin</artifactId>
+                <version>1.3.8</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <wroManagerFactory>ro.isdc.wro.extensions.manager.standalone.GoogleStandaloneManagerFactory</wroManagerFactory>
+                    <wroFile>${wro.xml}</wroFile>
+                    <minimize>true</minimize>
+                    <destinationFolder>${wro.destination}</destinationFolder>
+                    <contextFolder>${wro.context}</contextFolder>
+                    <ignoreMissingResources>false</ignoreMissingResources>
+                </configuration>
+            </plugin>
+            <!--
+                Closure-Package
+            -->
             <plugin>
                 <groupId>com.github.urmuzov</groupId>
                 <artifactId>closure-package-maven-plugin</artifactId>
@@ -140,32 +167,7 @@
                 </executions>
             </plugin>
             <!--
-                WRO
-            -->
-            <plugin>
-                <groupId>ro.isdc.wro4j</groupId>
-                <artifactId>wro4j-maven-plugin</artifactId>
-                <version>1.3.8</version>
-                <executions>
-                    <execution>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>run</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <wroManagerFactory>ro.isdc.wro.extensions.manager.standalone.GoogleStandaloneManagerFactory</wroManagerFactory>
-                    <wroFile>${wro.xml}</wroFile>
-                    <minimize>true</minimize>
-                    <destinationFolder>${wro.destination}</destinationFolder>
-                    <contextFolder>${wro.context}</contextFolder>
-                    <ignoreMissingResources>false</ignoreMissingResources>
-                </configuration>
-            </plugin>
-
-            <!--
-            CLOSURE
+                Closure Compiler
             -->
             <plugin>
                 <groupId>com.github.urmuzov</groupId>
@@ -216,12 +218,71 @@
                     </execution>
                 </executions>
             </plugin>
+            <!--
+                Property shortcut for HTML
+            -->
+            <plugin>
+                <groupId>org.codehaus.groovy.maven</groupId>
+                <artifactId>gmaven-plugin</artifactId>
+                <version>1.0-rc-5</version>
+                <executions>
+                    <execution>
+                        <id>property-setup</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <configuration>
+                            <source>
+List passes = project.properties["passes"].split("[ ;,]+");
+String prefix = project.properties["output.closure.js.prefix"];
+String suffix = project.properties["output.closure.js.suffix"];
+String propertyName;
+for (String pass : passes) {
+	propertyName = pass+".entry.js";
+	project.properties[propertyName] = prefix + pass + suffix;
+	log.info("SimplePass["+pass+"]: For simple inclusion use \${" + propertyName + "} in your HTML file");
+}
+                            </source>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!--
+                calcdeps
+            -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.1.1</version>
+                <executions>
+                    <execution>
+                        <id>calcdeps</id>
+                        <phase>none</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>python</executable>
+                            <workingDirectory>${project.build.directory}/${project.build.finalName}
+                            </workingDirectory>
+                            <arguments>
+                                <argument>${basedir}/src/main/python/closure-library/build/depswriter.py
+                                </argument>
+                                <argument>--root_with_prefix=${input.closure.javascript.dir} ..</argument>
+                                <argument>--output_file=${output.closure.deps}</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.0-beta-3</version>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -234,6 +295,7 @@
                     </compilerArguments>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -285,36 +347,13 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.1.1</version>
-                <executions>
-                    <execution>
-                        <id>calcdeps</id>
-                        <phase>none</phase>
-                        <goals>
-                            <goal>exec</goal>
-                        </goals>
-                        <configuration>
-                            <executable>python</executable>
-                            <workingDirectory>${project.build.directory}/${project.build.finalName}
-                            </workingDirectory>
-                            <arguments>
-                                <argument>${basedir}/src/main/python/closure-library/build/depswriter.py
-                                </argument>
-                                <argument>--root_with_prefix=${input.closure.javascript.dir} ..</argument>
-                                <argument>--output_file=${output.closure.deps}</argument>
-                            </arguments>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.3.1</version>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -425,14 +464,9 @@
                     <![CDATA[
 <script type="text/javascript" src="${input.closure.goog.base}"></script>
 <script type="text/javascript" src="${output.closure.deps.file}"></script>
-<script type="text/javascript" src="
-]]>
+<script type="text/javascript" src="]]>
                 </output.closure.js.prefix>
-                <output.closure.js.suffix>
-                    <![CDATA[
-.entry.js"></script>
-]]>
-                </output.closure.js.suffix>
+                <output.closure.js.suffix><![CDATA[.entry.js"></script>]]></output.closure.js.suffix>
             </properties>
             <build>
                 <plugins>

@@ -13,7 +13,9 @@ import org.apache.maven.project.MavenProject;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.regex.Pattern;
 
 /**
@@ -125,62 +127,47 @@ public class ClosureCompilerMojo extends AbstractMojo {
         if (this.passes != null) {
             effPasses.addAll(this.passes);
         }
-        effPasses.addAll(Utils.createSimplePasses(debug, log, simplePasses, simplePassesEntriesDir, simplePassesOutputDir));
+        effPasses.addAll(createSimplePasses());
         for (Pass pass : effPasses) {
-            Utils.log(true, log, pass.getTitleText());
+            info(pass.getTitleText());
 
             CompilerOptions compilerOptions = new CompilerOptions();
 
-            String effCompilationLevel = pass.getCompilationLevel(debug, log, this.compilationLevel);
-            Utils.setCompilationLevel(effCompilationLevel, debug, compilerOptions);
-            String effWarningLevel = pass.getWarningLevel(debug, log, this.warningLevel);
-            Utils.setWarningLevel(effWarningLevel, compilerOptions);
-            String effFormatting = pass.getFormatting(debug, log, this.formatting);
-            Utils.setFormatting(effFormatting, compilerOptions);
-            boolean effManageClosureDependencies = pass.isManageClosureDependencies(debug, log, this.manageClosureDependencies);
-            compilerOptions.setManageClosureDependencies(effManageClosureDependencies);
-            boolean effGenerateExports = pass.isGenerateExports(debug, log, this.generateExports);
-            compilerOptions.setGenerateExports(effGenerateExports);
+            setCompilationLevel(this.compilationLevel, pass.compilationLevel, compilerOptions);
+            setWarningLevel(this.warningLevel, pass.warningLevel, compilerOptions);
+            setFormatting(this.formatting, pass.formatting, compilerOptions);
+            setManageClosureDependencies(this.manageClosureDependencies, pass.manageClosureDependencies, compilerOptions);
+            setGenerateExports(this.generateExports, pass.generateExports, compilerOptions);
 
             Compiler compiler = new Compiler();
 
-            String effLoggingLevel = pass.getLoggingLevel(debug, log, this.loggingLevel);
-            Utils.setLoggingLevel(effLoggingLevel, compiler);
+            setLoggingLevel(this.loggingLevel, pass.loggingLevel);
 
+            // Externs
             JSFileCollector externsCollector = createExternsCollector();
+            addDefaultExterns(this.addDefaultExterns, pass.addDefaultExterns, externsCollector);
+            collectExterns(this.externs, pass.externs, externsCollector);
+            infoFiles(logExternFiles, "Externs:", externsCollector);
+
+            // Sources
             JSFileCollector sourcesCollector = createSourcesCollector();
+            collectSources(this.sources, pass.sources, sourcesCollector, entryFileMask);
+            addEntryFile(pass.entryFile, sourcesCollector);
+            infoFiles(logSourceFiles, "Sources:", sourcesCollector);
 
-            boolean effAddDefaultExterns = pass.isAddDefaultExterns(debug, log, this.addDefaultExterns);
-            if (effAddDefaultExterns) {
-                try {
-                    externsCollector.collectJSSourceFiles(CommandLineRunner.getDefaultExterns());
-                } catch (IOException ex) {
-                    throw new MojoFailureException("Default externs adding error");
-                }
-            }
-            List<File> effExterns = pass.getExterns(debug, log, this.externs);
-            externsCollector.collectFiles(effExterns, null);
-            List<File> effSources = pass.getSources(debug, log, this.sources);
-            sourcesCollector.collectFiles(effSources, Pattern.compile(Utils.wildcardToRegex(entryFileMask)));
-            File entryFile = pass.getEntryFile();
-            if (entryFile != null && entryFile.exists() && entryFile.isFile()) {
-                sourcesCollector.collectFile(entryFile, null);
-            }
-
-            Utils.logExterns(logExternFiles, log, externsCollector);
-            Utils.logSources(logSourceFiles, log, sourcesCollector);
-
+            // Compiling
             Result result = compiler.compile(externsCollector.getFiles(), sourcesCollector.getFiles(), compilerOptions);
 
+            // Error handling
             boolean hasWarnings = result.warnings.length > 0;
-//            for (JSError warning : result.warnings) {
-//                log.warn(warning.toString());
-//            }
-
             boolean hasErrors = result.errors.length > 0;
-            for (JSError error : result.errors) {
-                log.error(error.toString());
-            }
+            // Looks like compiler prints errors and warnings himself
+//            for (JSError warning : result.warnings) {
+//                infoIfDebug.warn(warning.toString());
+//            }
+//            for (JSError error : result.errors) {
+//                log.error(error.toString());
+//            }
             if (stopOnWarnings && hasWarnings) {
                 throw new MojoFailureException("Compilation faied: has warnings");
             }
@@ -190,15 +177,48 @@ public class ClosureCompilerMojo extends AbstractMojo {
             if (!result.success) {
                 throw new MojoFailureException("Compilation failure");
             }
-            File outputFile = pass.getOutputFile();
-            Utils.log(debug, log, "outputFile: " + outputFile);
+
+            // Output
+            File outputFile = pass.outputFile;
+            infoIfDebug("outputFile: " + outputFile);
             try {
                 Files.createParentDirs(outputFile);
                 Files.touch(outputFile);
                 Files.write(compiler.toSource(), outputFile, Charsets.UTF_8);
-                Utils.log(true, log, "file size: " + outputFile.getName() + " -> " + outputFile.length() + " bytes");
+                info("file size: " + outputFile.getName() + " -> " + outputFile.length() + " bytes");
             } catch (IOException e) {
                 throw new MojoFailureException(outputFile != null ? outputFile.toString() : e.getMessage(), e);
+            }
+        }
+    }
+
+    public void info(String message) {
+        getLog().info(message);
+    }
+
+    public void infoIfDebug(String message) {
+        if (debug) {
+            info(message);
+        }
+    }
+
+    public void infoEffectiveValuesIfDebug(String name, Object effectiveValue, Object mojoValue, Object passValue) {
+        if (debug) {
+            info(name + ": " + effectiveValue + " (mojo: " + mojoValue + "; pass: " + passValue + ")");
+        }
+    }
+
+    public void infoEffectiveListIfDebug(String name, List effectiveValue, List mojoValue, List passValue) {
+        if (debug) {
+            info(name + ": count " + (effectiveValue == null ? "null" : effectiveValue.size()) + " (mojo: count " + (mojoValue == null ? "null" : mojoValue.size()) + "; pass: count " + (passValue == null ? "null" : passValue.size()) + ")");
+        }
+    }
+
+    public void infoFiles(boolean enabled, String message, JSFileCollector collector) {
+        if (enabled) {
+            info(message);
+            for (JSSourceFile f : collector.getFiles()) {
+                info(f.getOriginalPath());
             }
         }
     }
@@ -209,5 +229,181 @@ public class ClosureCompilerMojo extends AbstractMojo {
 
     protected JSFileCollector createExternsCollector() {
         return new JSFileCollector();
+    }
+
+    public <T> T getEffectiveValue(T mojoValue, T passValue) {
+        T out = mojoValue;
+
+        if (passValue != null)
+            out = passValue;
+
+        return out;
+    }
+
+    public List<SimplePass> createSimplePasses() throws MojoFailureException {
+        Log log = getLog();
+
+        List<SimplePass> out = new ArrayList<SimplePass>();
+
+        if ((simplePasses == null || simplePasses.isEmpty())) {
+            return out;
+        }
+
+        if (simplePassesEntriesDir == null) {
+            throw new MojoFailureException("simplePassesEntriesDir is null");
+        }
+        if (!simplePassesEntriesDir.isDirectory()) {
+            throw new MojoFailureException("simplePassesEntriesDir (" + simplePassesEntriesDir + ") is not a directory");
+        }
+        if (simplePassesOutputDir == null) {
+            throw new MojoFailureException("simplePassesOutputDir is null");
+        }
+
+        String[] passNames = simplePasses.split("[ ;,]");
+        info("simplePasses: " + Arrays.asList(passNames).toString());
+        for (String passName : passNames) {
+            out.add(new SimplePass(simplePassesEntriesDir, simplePassesOutputDir, passName));
+        }
+        return out;
+    }
+
+    public void setCompilationLevel(String mojoCompilationLevel, String passCompilationLevel, CompilerOptions compilerOptions) throws MojoFailureException {
+        String compilationLevel = getEffectiveValue(mojoCompilationLevel, passCompilationLevel);
+        infoEffectiveValuesIfDebug("compilationLevel", compilationLevel, mojoCompilationLevel, passCompilationLevel);
+        CompilationLevel compilationLvl = null;
+        try {
+            compilationLvl = CompilationLevel.valueOf(compilationLevel);
+            compilationLvl.setOptionsForCompilationLevel(compilerOptions);
+            if (debug)
+                compilationLvl.setDebugOptionsForCompilationLevel(compilerOptions);
+        } catch (IllegalArgumentException e) {
+            throw new MojoFailureException("Compilation level invalid (values: " + Arrays.asList(CompilationLevel.values()).toString() + ")", e);
+        }
+
+    }
+
+    public void setWarningLevel(String mojoWarningLevel, String passWarningLevel, CompilerOptions compilerOptions) throws MojoFailureException {
+        String warningLevel = getEffectiveValue(mojoWarningLevel, passWarningLevel);
+        infoEffectiveValuesIfDebug("warningLevel", warningLevel, mojoWarningLevel, passWarningLevel);
+        WarningLevel warningLvl = null;
+        try {
+            if (warningLevel.equals("VERBOSE_EXTRA")) {
+                WarningLevel.VERBOSE.setOptionsForWarningLevel(compilerOptions);
+                compilerOptions.setWarningLevel(DiagnosticGroups.ACCESS_CONTROLS, CheckLevel.WARNING);
+                compilerOptions.setWarningLevel(DiagnosticGroups.STRICT_MODULE_DEP_CHECK, CheckLevel.WARNING);
+                compilerOptions.setWarningLevel(DiagnosticGroups.VISIBILITY, CheckLevel.WARNING);
+            } else {
+                warningLvl = WarningLevel.valueOf(warningLevel);
+                warningLvl.setOptionsForWarningLevel(compilerOptions);
+            }
+        } catch (IllegalArgumentException e) {
+            throw new MojoFailureException("Warning level invalid (values: " + Arrays.asList(WarningLevel.values()).toString() + ")", e);
+        }
+
+    }
+
+    public void setFormatting(String mojoFormatting, String passFormatting, CompilerOptions compilerOptions) throws MojoFailureException {
+        String formatting = getEffectiveValue(mojoFormatting, passFormatting);
+        infoEffectiveValuesIfDebug("formatting", formatting, mojoFormatting, passFormatting);
+        FormattingOption formattingOption = null;
+        if (formatting != null && !formatting.equals("null")) {
+            try {
+                formattingOption = FormattingOption.valueOf(formatting);
+                formattingOption.applyToOptions(compilerOptions);
+            } catch (IllegalArgumentException e) {
+                throw new MojoFailureException("Formatting invalid (values: " + Arrays.asList(FormattingOption.values()).toString() + ")", e);
+            }
+        }
+    }
+
+    public void setManageClosureDependencies(boolean mojoManageClosureDependencies, Boolean passManageClosureDependencies, CompilerOptions compilerOptions) {
+        boolean manageClosureDependencies = getEffectiveValue(mojoManageClosureDependencies, passManageClosureDependencies);
+        infoEffectiveValuesIfDebug("manageClosureDependencies", manageClosureDependencies, mojoManageClosureDependencies, passManageClosureDependencies);
+        compilerOptions.setManageClosureDependencies(manageClosureDependencies);
+    }
+
+    public void setGenerateExports(boolean mojoGenerateExports, Boolean passGenerateExports, CompilerOptions compilerOptions) {
+        boolean generateExports = getEffectiveValue(mojoGenerateExports, passGenerateExports);
+        infoEffectiveValuesIfDebug("generateExports", generateExports, mojoGenerateExports, passGenerateExports);
+        compilerOptions.setGenerateExports(generateExports);
+    }
+
+    public void setLoggingLevel(String mojoLoggingLevel, String passLoggingLevel) throws MojoFailureException {
+        String loggingLevel = getEffectiveValue(mojoLoggingLevel, passLoggingLevel);
+        infoEffectiveValuesIfDebug("loggingLevel", loggingLevel, mojoLoggingLevel, passLoggingLevel);
+        Level loggingLvl = null;
+        try {
+            loggingLvl = Level.parse(loggingLevel);
+            Compiler.setLoggingLevel(loggingLvl);
+        } catch (IllegalArgumentException e) {
+            throw new MojoFailureException("Logging level invalid (values: [ALL, CONFIG, FINE, FINER, FINEST, INFO, OFF, SEVERE, WARNING])", e);
+        }
+    }
+
+    public void addDefaultExterns(boolean mojoAddDefaultExterns, Boolean passAddDefaultExterns, JSFileCollector fileCollector) throws MojoFailureException {
+        boolean addDefaultExterns = getEffectiveValue(mojoAddDefaultExterns, passAddDefaultExterns);
+        infoEffectiveValuesIfDebug("addDefaultExterns", addDefaultExterns, mojoAddDefaultExterns, passAddDefaultExterns);
+        if (addDefaultExterns) {
+            try {
+                fileCollector.collectJSSourceFiles(CommandLineRunner.getDefaultExterns());
+            } catch (IOException ex) {
+                throw new MojoFailureException("Default externs adding error");
+            }
+        }
+    }
+
+    public void collectExterns(List<File> mojoExterns, List<File> passExterns, JSFileCollector fileCollector) {
+        List<File> effExterns = getEffectiveValue(mojoExterns, passExterns);
+        infoEffectiveListIfDebug("externs", effExterns, mojoExterns, passExterns);
+        fileCollector.collectFiles(effExterns, null);
+    }
+
+    public void collectSources(List<File> mojoSources, List<File> passSources, JSFileCollector fileCollector, String entryFileMask) {
+        List<File> effSources = getEffectiveValue(mojoSources, passSources);
+        infoEffectiveListIfDebug("sources", effSources, mojoSources, passSources);
+        fileCollector.collectFiles(effSources, Pattern.compile(wildcardToRegex(entryFileMask)));
+    }
+
+    public void addEntryFile(File entryFile, JSFileCollector fileCollector) {
+        if (entryFile != null && entryFile.exists() && entryFile.isFile()) {
+            fileCollector.collectFile(entryFile, null);
+        }
+        infoIfDebug("entryFile: " + (entryFile == null ? "null" : entryFile.getAbsolutePath()));
+    }
+
+    public String wildcardToRegex(String wildcard) {
+        StringBuffer s = new StringBuffer(wildcard.length());
+        s.append('^');
+        for (int i = 0, is = wildcard.length(); i < is; i++) {
+            char c = wildcard.charAt(i);
+            switch (c) {
+                case '*':
+                    s.append(".*");
+                    break;
+                case '?':
+                    s.append(".");
+                    break;
+                // escape special regexp-characters
+                case '(':
+                case ')':
+                case '[':
+                case ']':
+                case '$':
+                case '^':
+                case '.':
+                case '{':
+                case '}':
+                case '|':
+                case '\\':
+                    s.append("\\");
+                    s.append(c);
+                    break;
+                default:
+                    s.append(c);
+                    break;
+            }
+        }
+        s.append('$');
+        return (s.toString());
     }
 }

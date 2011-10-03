@@ -16,7 +16,4 @@ public class SimplePass extends Pass {
         return "== SimplePass (" + entryFile + " -> " + outputFile + ") ==";
     }
 
-    public String getEntryPointName() {
-        return entryPointName;
-    }
 }

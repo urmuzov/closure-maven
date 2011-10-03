@@ -1,1 +1,0 @@
-window.onLoad=function(){var a=document.createElement("div");a.innerHTML="<h1>Mobile Version</h1>Time: "+(new Date).toString();a.style.width="240px";a.style.height="320px";a.style.backgroundColor="#eee";document.body.appendChild(a)};

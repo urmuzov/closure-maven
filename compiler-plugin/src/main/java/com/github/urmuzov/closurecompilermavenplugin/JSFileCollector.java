@@ -29,18 +29,27 @@ public class JSFileCollector {
     }
 
     public void collectPaths(Collection<String> paths, Pattern excludePattern) {
+        if (paths == null) {
+            return;
+        }
         for (String path : paths) {
             collectPath(path, excludePattern);
         }
     }
 
     public void collectFiles(Collection<File> files, Pattern excludePattern) {
+        if (files == null) {
+            return;
+        }
         for (File file : files) {
             collectFile(file, excludePattern);
         }
     }
 
     public void collectJSSourceFiles(Collection<JSSourceFile> files) {
+        if (files == null) {
+            return;
+        }
         for (JSSourceFile file : files) {
             collect(file);
         }

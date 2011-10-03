@@ -1,1 +1,0 @@
-window.onLoad=function(){var a=document.createElement("div");a.innerHTML="<h1>Desktop Version</h1>Time: "+(new Date).toString();document.body.appendChild(a)};

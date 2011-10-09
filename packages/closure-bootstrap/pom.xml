@@ -41,7 +41,7 @@
                 <configuration>
                     <logEnabled>true</logEnabled>
                     <closurePackages>
-                        <closureLibrary>com/github/urmuzov/closuremaven/closurebootstrappackage</closureLibrary>
+                        <closureLibrary>com/github/urmuzov/closuremaven/bootstrappackage</closureLibrary>
                     </closurePackages>
                 </configuration>
                 <executions>

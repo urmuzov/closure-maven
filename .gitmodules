@@ -1,0 +1,3 @@
+[submodule "packages/closure-bootstrap/src/main/resources/com/github/urmuzov/closuremaven/bootstrappackage/javascript/bootstrap"]
+	path = packages/closure-bootstrap/src/main/resources/com/github/urmuzov/closuremaven/bootstrappackage/javascript/bootstrap
+	url = https://urmuzov@github.com/urmuzov/closure-bootstrap.git

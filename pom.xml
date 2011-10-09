@@ -4,13 +4,14 @@
     <groupId>com.github.urmuzov</groupId>
     <artifactId>closure-maven</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <name>closure-maven</name>
     <modules>
         <module>package-plugin</module>
         <module>compiler-plugin</module>
         <module>archetype</module>
-        <module>library-wrapper</module>
+        <module>packages/closure-library</module>
+        <module>packages/closure-bootstrap</module>
         <module>examples/compiler-plugin-example1</module>
         <module>examples/compiler-plugin-example2</module>
     </modules>

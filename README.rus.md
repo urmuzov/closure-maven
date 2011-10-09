@@ -8,7 +8,7 @@
 
 * [closure-maven/compiler-plugin](https://github.com/urmuzov/closure-maven/tree/master/compiler-plugin) плагин для Google Closure-Compiler;
 * [closure-maven/package-plugin](https://github.com/urmuzov/closure-maven/tree/master/package-plugin) плагин для упаковывания javascript проектов в maven-артефакты;
-* [closure-maven/library-wrapper](https://github.com/urmuzov/closure-maven/tree/master/library-wrapper) Google Closure-Library запакованная при помощи package-plugin;
+* [closure-maven/packages/closure-library](https://github.com/urmuzov/closure-maven/tree/master/packages/closure-library) Google Closure-Library запакованная при помощи package-plugin;
 * [closure-maven/archetype](https://github.com/urmuzov/closure-maven/tree/master/archetype) archetype для создания проекта объединяющего все выше перечисленное.
 
 Для работы требуется **maven3 и выше**. Последнюю версию можно взять с [сайта проекта](http://maven.apache.org/download.html) или при помощи менеждера пакетов вашего дистрибутива.
@@ -66,12 +66,12 @@ package-plugin
 
 Информацию по настройке плагина смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/package-plugin/README.rus.md)
 
-library-wrapper
+packages/closure-library
 ---------------
 
 Обертка превращающая Google Closure-Library в closure-package.
 
-Подробнее на [этой странице](https://github.com/urmuzov/closure-maven/tree/master/library-wrapper/README.rus.md)
+Подробнее на [этой странице](https://github.com/urmuzov/closure-maven/tree/master/packages/closure-library/README.rus.md)
 
 archetype
 ---------
@@ -82,13 +82,13 @@ archetype
       -DarchetypeRepository=http://urmuzov.github.com/maven-repository/releases/
       -DarchetypeGroupId=com.github.urmuzov \ 
       -DarchetypeArtifactId=closure-package-maven-archetype \
-      -DarchetypeVersion=1.0.1 \
+      -DarchetypeVersion=1.0.2 \
       -DgroupId=my.test.group \
       -DartifactId=test-artifact \
       -Dversion=1.0.0-SNAPSHOT \
       -Dpackage=my.test.pkg
       
-Первые 4 параметра определяют где хранится ахретип, какой ахретип используется, обязательно наличие параметра `archetypeVersion` в проект будут подключены compiler-plugin, package-plugin и library-wrapper такой же версии.
+Первые 4 параметра определяют где хранится ахретип, какой ахретип используется, обязательно наличие параметра `archetypeVersion` в проект будут подключены compiler-plugin, package-plugin и packages/closure-library такой же версии.
  
 Следующие 4 параметра определяют название группы, артефакта, версию и пакет (опционально) в котором будет лежать стандартная структура closure-package.
 

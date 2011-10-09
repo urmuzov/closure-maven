@@ -43,16 +43,14 @@
         <output.closure.js.suffix><![CDATA[]]></output.closure.js.suffix>
         <input.closure.goog.base>goog/base.js</input.closure.goog.base>
         <packaging.type>war</packaging.type>
-        <closureCompilerMavenPlugin.version>${archetypeVersion}</closureCompilerMavenPlugin.version>
-        <closurePackageMavenPlugin.version>${archetypeVersion}</closurePackageMavenPlugin.version>
-        <closureLibraryMavenWrapper.version>${archetypeVersion}</closureLibraryMavenWrapper.version>
+        <closureMaven.version>${archetypeVersion}</closureMaven.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.github.urmuzov</groupId>
-            <artifactId>closure-library-maven-wrapper</artifactId>
-            <version>${closureLibraryMavenWrapper.version}</version>
+            <artifactId>closure-library-package</artifactId>
+            <version>${closureMaven.version}</version>
         </dependency>
         <dependency>
             <groupId>ro.isdc.wro4j</groupId>
@@ -150,7 +148,7 @@
             <plugin>
                 <groupId>com.github.urmuzov</groupId>
                 <artifactId>closure-package-maven-plugin</artifactId>
-                <version>${closurePackageMavenPlugin.version}</version>
+                <version>${closureMaven.version}</version>
                 <configuration>
                     <closurePackages>
                         <package1>${input.closurePackage}</package1>
@@ -172,7 +170,7 @@
             <plugin>
                 <groupId>com.github.urmuzov</groupId>
                 <artifactId>closure-compiler-maven-plugin</artifactId>
-                <version>${closureCompilerMavenPlugin.version}</version>
+                <version>${closureMaven.version}</version>
                 <configuration>
                     <debug>${input.debug.javascript}</debug>
                     <loggingLevel>WARNING</loggingLevel>
@@ -398,7 +396,7 @@ for (String pass : passes) {
                     <plugin>
                         <groupId>com.github.urmuzov</groupId>
                         <artifactId>closure-compiler-maven-plugin</artifactId>
-                        <version>${closureCompilerMavenPlugin.version}</version>
+                        <version>${closureMaven.version}</version>
                         <executions>
                             <execution>
                                 <id>compile-advanced</id>
@@ -435,7 +433,7 @@ for (String pass : passes) {
                     <plugin>
                         <groupId>com.github.urmuzov</groupId>
                         <artifactId>closure-compiler-maven-plugin</artifactId>
-                        <version>${closureCompilerMavenPlugin.version}</version>
+                        <version>${closureMaven.version}</version>
                         <executions>
                             <execution>
                                 <id>compile-whitespace</id>
@@ -473,7 +471,7 @@ for (String pass : passes) {
                     <plugin>
                         <groupId>com.github.urmuzov</groupId>
                         <artifactId>closure-compiler-maven-plugin</artifactId>
-                        <version>${closureCompilerMavenPlugin.version}</version>
+                        <version>${closureMaven.version}</version>
                         <executions>
                             <execution>
                                 <id>compile-advanced</id>
@@ -565,18 +563,5 @@ for (String pass : passes) {
             </build>
         </profile>
     </profiles>
-
-    <repositories>
-        <repository>
-            <id>jsdoctk1</id>
-            <url>http://jsdoctk-plugin.googlecode.com/svn/repo</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>jsdoctk2</id>
-            <url>http://jsdoctk-plugin.googlecode.com/svn/repo</url>
-        </pluginRepository>
-    </pluginRepositories>
 
 </project>

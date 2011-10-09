@@ -6,7 +6,7 @@
 В архетип интегрированы следующие средства:
 
 * closure-maven/compiler-plugin - Closure Compiler
-* closure-maven/library-wrapper - Closure Library
+* closure-maven/packages/closure-library - Closure Library
 * closure-maven/package-plugin - упаковка JS в артефакты
 * [Web Resource Optimizer for Java (wro4j)](http://code.google.com/p/wro4j/) - склеивание, минификация и другие операции с JS и CSS файлами
 * [jsdoctk-plugin](http://code.google.com/p/jsdoctk-plugin/) - JSDoc
@@ -23,7 +23,7 @@
       -DarchetypeRepository=http://urmuzov.github.com/maven-repository/releases/
       -DarchetypeGroupId=com.github.urmuzov \
       -DarchetypeArtifactId=closure-package-maven-archetype \
-      -DarchetypeVersion=1.0.1 \
+      -DarchetypeVersion=1.0.2 \
       -DgroupId=my.test.group \
       -DartifactId=test-artifact \
       -Dversion=1.0.0-SNAPSHOT \

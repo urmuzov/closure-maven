@@ -8,10 +8,10 @@
         <version>1.0.2</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>closure-library-package</artifactId>
+    <artifactId>closure-bootstrap-package</artifactId>
     <packaging>jar</packaging>
 
-    <name>closure-library</name>
+    <name>closure-bootstrap</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -41,7 +41,7 @@
                 <configuration>
                     <logEnabled>true</logEnabled>
                     <closurePackages>
-                        <closureLibrary>com/github/urmuzov/closuremaven/closurelibrarypackage</closureLibrary>
+                        <closureLibrary>com/github/urmuzov/closuremaven/closurebootstrappackage</closureLibrary>
                     </closurePackages>
                 </configuration>
                 <executions>

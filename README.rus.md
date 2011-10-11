@@ -1,4 +1,3 @@
-
 О проекте
 =========
 
@@ -79,7 +78,7 @@ archetype
 Архетип для создания проекта использующего Closure-Library, компилируемого и собираемого при помощи compiler-plugin и package-plugin.
 
     mvn archetype:generate \
-      -DarchetypeRepository=http://urmuzov.github.com/maven-repository/releases/
+      -DarchetypeRepository=http://urmuzov.github.com/maven-repository/releases/ \
       -DarchetypeGroupId=com.github.urmuzov \ 
       -DarchetypeArtifactId=closure-package-maven-archetype \
       -DarchetypeVersion=1.0.2 \
@@ -92,4 +91,4 @@ archetype
  
 Следующие 4 параметра определяют название группы, артефакта, версию и пакет (опционально) в котором будет лежать стандартная структура closure-package.
 
-Подробнее об архетипе смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/package-plugin/README.rus.md)
+Подробнее об архетипе смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/archetype/README.rus.md)

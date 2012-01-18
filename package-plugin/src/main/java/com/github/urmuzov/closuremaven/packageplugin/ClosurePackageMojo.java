@@ -74,6 +74,16 @@ public class ClosurePackageMojo extends AbstractMojo {
          */
         Set<Artifact> deps = mavenProject.getDependencyArtifacts();
         try {
+            /**
+             * Creating build directory structure
+             */
+            File f = new File(buildDirectory + "/closure/javascript");
+            f.mkdirs();
+            f = new File(buildDirectory + "/closure/css");
+            f.mkdirs();
+            f = new File(buildDirectory + "/closure/img");
+            f.mkdirs();
+
             for (Artifact a : deps) {
                 if (a.getScope().equals("test")) {
                     continue;

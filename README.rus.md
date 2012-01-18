@@ -18,15 +18,37 @@
 
     ...
     <repositories>
-      <repository>
-        <id>urmuzov-snapshots</id>
-        <url>http://urmuzov.github.com/maven-repository/snapshots</url>
-      </repository>
-      <repository>
-        <id>urmuzov-releases</id>
-        <url>http://urmuzov.github.com/maven-repository/releases</url>
-      </repository>
+        <repository>
+            <id>urmuzov-snapshots</id>
+            <url>http://urmuzov.github.com/maven-repository/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>urmuzov-releases</id>
+            <url>http://urmuzov.github.com/maven-repository/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
     </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>urmuzov-snapshots</id>
+            <url>http://urmuzov.github.com/maven-repository/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>urmuzov-releases</id>
+            <url>http://urmuzov.github.com/maven-repository/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
     ...
 
 compiler-plugin
@@ -81,7 +103,7 @@ archetype
       -DarchetypeRepository=http://urmuzov.github.com/maven-repository/releases/ \
       -DarchetypeGroupId=com.github.urmuzov \ 
       -DarchetypeArtifactId=closure-package-maven-archetype \
-      -DarchetypeVersion=1.0.2 \
+      -DarchetypeVersion=1.0.3 \
       -DgroupId=my.test.group \
       -DartifactId=test-artifact \
       -Dversion=1.0.0-SNAPSHOT \

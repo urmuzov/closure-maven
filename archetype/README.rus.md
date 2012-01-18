@@ -22,7 +22,7 @@
     mvn -DarchetypeRepository=http://urmuzov.github.com/maven-repository/releases/ \
         -DarchetypeGroupId=com.github.urmuzov \
         -DarchetypeArtifactId=closure-package-maven-archetype \
-        -DarchetypeVersion=1.0.2 \
+        -DarchetypeVersion=1.0.3 \
         -DgroupId=my.test.group \
         -DartifactId=test-artifact \
         -Dversion=1.0.0-SNAPSHOT \
@@ -43,6 +43,7 @@
 Сборка проекта должна осуществляться с указанием одного из профилей:
 
 * `compiled` - уровень компиляции ADVANCED_OPTIMIZATIONS
+* `compiled-debug` - уровень компиляции ADVANCED_OPTIMIZATIONS, включен debug (символы получают длинные имена) и форматирование PRETTY_PRINT
 * `merged` - уровень компиляции WHITESPACE_ONLY, форматирование PRETTY_PRINT
 * `sources` - компиляцтя происходит с уровнем ADVANCED_OPTIMIZATIONS, но в html будут подключены файлы с исходными кодами. Удобно для дебага.
 * `sources-no-compile` - компиляции не происходит, просто в html подключаются файлы с исходными кодами. Используется также для дебага.

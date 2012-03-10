@@ -217,7 +217,7 @@ public class ClosureCompilerMojo extends AbstractMojo {
     public void infoFiles(boolean enabled, String message, JSFileCollector collector) {
         if (enabled) {
             info(message);
-            for (JSSourceFile f : collector.getFiles()) {
+            for (SourceFile f : collector.getFiles()) {
                 info(f.getOriginalPath());
             }
         }

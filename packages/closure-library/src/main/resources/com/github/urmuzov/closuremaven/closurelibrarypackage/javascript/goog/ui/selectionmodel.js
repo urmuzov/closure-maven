@@ -15,9 +15,10 @@
 /**
  * @fileoverview Single-selection model implemenation.
  *
- * TODO(user): Add keyboard & mouse event hooks?
- * TODO(user): Add multiple selection?
+ * TODO(attila): Add keyboard & mouse event hooks?
+ * TODO(attila): Add multiple selection?
  *
+ * @author attila@google.com (Attila Bodis)
  */
 
 
@@ -267,7 +268,7 @@ goog.ui.SelectionModel.prototype.clear = function() {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.SelectionModel.prototype.disposeInternal = function() {
   goog.ui.SelectionModel.superClass_.disposeInternal.call(this);
   delete this.items_;

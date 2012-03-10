@@ -223,7 +223,7 @@ goog.ui.Dialog.prototype.contentEl_ = null;
 goog.ui.Dialog.prototype.buttonEl_ = null;
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.Dialog.prototype.getCssClass = function() {
   return this.class_;
 };
@@ -277,7 +277,7 @@ goog.ui.Dialog.prototype.getContent = function() {
  */
 goog.ui.Dialog.prototype.renderIfNoDom_ = function() {
   if (!this.getElement()) {
-    // TODO(user): Ideally we'd only create the DOM, but many applications
+    // TODO(gboyer): Ideally we'd only create the DOM, but many applications
     // are requiring this behavior.  Eventually, it would be best if the
     // element getters could return null if the elements have not been
     // created.
@@ -499,7 +499,7 @@ goog.ui.Dialog.prototype.setDraggingEnabled_ = function(enabled) {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.Dialog.prototype.createDom = function() {
   goog.base(this, 'createDom');
   var element = this.getElement();
@@ -537,7 +537,7 @@ goog.ui.Dialog.prototype.createDom = function() {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.Dialog.prototype.decorateInternal = function(element) {
   goog.base(this, 'decorateInternal', element);
 
@@ -569,12 +569,18 @@ goog.ui.Dialog.prototype.decorateInternal = function(element) {
         null, titleTextClass, this.titleEl_)[0];
     this.titleCloseEl_ = goog.dom.getElementsByTagNameAndClass(
         null, titleCloseClass, this.titleEl_)[0];
+    // Give the title an id if it doesn't already have one.
+    if (!this.titleEl_.id) {
+      this.titleEl_.id = this.getId();
+    }
   } else {
     // Create the title bar element and insert it before the content area.
     // This is useful if the element to decorate only includes a content area.
-    this.titleEl_ = this.getDomHelper().createDom('div', titleClass);
+    this.titleEl_ = this.getDomHelper().createDom('div',
+        {'className': titleClass, 'id': this.getId()});
     this.getElement().insertBefore(this.titleEl_, this.contentEl_);
   }
+  this.titleId_ = this.titleEl_.id;
 
   // Decorate or create the title text element.
   if (this.titleTextEl_) {
@@ -614,13 +620,25 @@ goog.ui.Dialog.prototype.decorateInternal = function(element) {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.Dialog.prototype.enterDocument = function() {
   goog.base(this, 'enterDocument');
 
-  this.getHandler().listen(this,
-      [goog.ui.PopupBase.EventType.SHOW, goog.ui.PopupBase.EventType.HIDE],
-      this.setVisibleInternal_);
+  // Listen for keyboard events while the dialog is visible.
+  this.getHandler().
+      listen(this.getElement(), goog.events.EventType.KEYDOWN, this.onKey_).
+      listen(this.getElement(), goog.events.EventType.KEYPRESS, this.onKey_);
+
+  // NOTE: see bug 1163154 for an example of an edge case where making the
+  // dialog visible in response to a KEYDOWN will result in a CLICK event
+  // firing on the default button (immediately closing the dialog) if the key
+  // that fired the KEYDOWN is also normally used to activate controls
+  // (i.e. SPACE/ENTER).
+  //
+  // This could be worked around by attaching the onButtonClick_ handler in a
+  // setTimeout, but that was deemed undesirable.
+  this.getHandler().listen(this.buttonEl_, goog.events.EventType.CLICK,
+      this.onButtonClick_);
 
   // Add drag support.
   this.setDraggingEnabled_(this.draggable_);
@@ -642,7 +660,7 @@ goog.ui.Dialog.prototype.enterDocument = function() {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.Dialog.prototype.exitDocument = function() {
   if (this.isVisible()) {
     this.setVisible(false);
@@ -656,8 +674,10 @@ goog.ui.Dialog.prototype.exitDocument = function() {
 
 
 /**
- * Sets the visibility of the dialog box and moves focus to the default button.
- * Lazily renders the component if needed.
+ * Sets the visibility of the dialog box and moves focus to the
+ * default button. Lazily renders the component if needed. After this
+ * method returns, isVisible() will always return the new state, even
+ * if there is a transition.
  * @param {boolean} visible Whether the dialog should be visible.
  */
 goog.ui.Dialog.prototype.setVisible = function(visible) {
@@ -674,48 +694,19 @@ goog.ui.Dialog.prototype.setVisible = function(visible) {
 };
 
 
-/**
- * Sets visibility after super class setVisible is completed.
- * @param {goog.events.Event} e The event object.
- * @private
- */
-goog.ui.Dialog.prototype.setVisibleInternal_ = function(e) {
-  if (e.target != this) {
-    return;
-  }
+/** @override */
+goog.ui.Dialog.prototype.onShow = function() {
+  goog.base(this, 'onShow');
+  this.dispatchEvent(goog.ui.Dialog.EventType.AFTER_SHOW);
+};
 
-  var visible = this.isVisible();
 
-  if (visible) {
-    // Listen for keyboard and resize events while the dialog is visible.
-    this.getHandler().
-        listen(this.getElement(), goog.events.EventType.KEYDOWN, this.onKey_).
-        listen(this.getElement(), goog.events.EventType.KEYPRESS, this.onKey_);
-
-    this.dispatchEvent(goog.ui.Dialog.EventType.AFTER_SHOW);
-    // NOTE: see bug 1163154 for an example of an edge case where making the
-    // dialog visible in response to a KEYDOWN will result in a CLICK event
-    // firing on the default button (immediately closing the dialog) if the key
-    // that fired the KEYDOWN is also normally used to activate controls
-    // (i.e. SPACE/ENTER).
-    //
-    // This could be worked around by attaching the onButtonClick_ handler in a
-    // setTimeout, but that was deemed undesirable.
-    this.getHandler().listen(this.buttonEl_, goog.events.EventType.CLICK,
-        this.onButtonClick_);
-  } else {
-    // Stop listening for keyboard and resize events while the dialog is hidden.
-    this.getHandler().
-        unlisten(this.getElement(), goog.events.EventType.KEYDOWN, this.onKey_).
-        unlisten(this.getElement(), goog.events.EventType.KEYPRESS,
-            this.onKey_).
-        unlisten(this.buttonEl_, goog.events.EventType.CLICK,
-            this.onButtonClick_);
-
-    this.dispatchEvent(goog.ui.Dialog.EventType.AFTER_HIDE);
-    if (this.disposeOnHide_) {
-      this.dispose();
-    }
+/** @override */
+goog.ui.Dialog.prototype.onHide = function() {
+  goog.base(this, 'onHide');
+  this.dispatchEvent(goog.ui.Dialog.EventType.AFTER_HIDE);
+  if (this.disposeOnHide_) {
+    this.dispose();
   }
 };
 
@@ -868,7 +859,7 @@ goog.ui.Dialog.prototype.getDisposeOnHide = function() {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.Dialog.prototype.disposeInternal = function() {
   this.titleCloseEl_ = null;
   this.buttonEl_ = null;
@@ -1039,7 +1030,7 @@ goog.inherits(goog.ui.Dialog.Event, goog.events.Event);
 
 /**
  * Event type constant for dialog events.
- * TODO(user): Change this to goog.ui.Dialog.EventType.SELECT.
+ * TODO(attila): Change this to goog.ui.Dialog.EventType.SELECT.
  * @type {string}
  * @deprecated Use goog.ui.Dialog.EventType.SELECT.
  */
@@ -1082,7 +1073,7 @@ goog.ui.Dialog.EventType = {
  * @extends {goog.structs.Map}
  */
 goog.ui.Dialog.ButtonSet = function(opt_domHelper) {
-  // TODO(user):  Refactor ButtonSet to extend goog.ui.Component?
+  // TODO(attila):  Refactor ButtonSet to extend goog.ui.Component?
   this.dom_ = opt_domHelper || goog.dom.getDomHelper();
   goog.structs.Map.call(this);
 };
@@ -1203,7 +1194,7 @@ goog.ui.Dialog.ButtonSet.prototype.render = function() {
  * to be the default and will receive focus when the button set is rendered.
  * If a button with a name of {@link goog.ui.Dialog.DefaultButtonKeys.CANCEL}
  * is found, it is assumed to have "Cancel" semantics.
- * TODO(user):  ButtonSet should be a goog.ui.Component.  Really.
+ * TODO(attila):  ButtonSet should be a goog.ui.Component.  Really.
  * @param {Element} element The element to decorate; should contain buttons.
  */
 goog.ui.Dialog.ButtonSet.prototype.decorate = function(element) {

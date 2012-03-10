@@ -440,11 +440,10 @@ goog.net.xpc.NixTransport.prototype.createChannel_ = function(channel) {
  */
 goog.net.xpc.NixTransport.prototype.handleMessage_ =
     function(serviceName, payload) {
-
-  function deliveryHandler() {
-    this.channel_.deliver_(serviceName, payload);
-  }
-
+  /** @this {goog.net.xpc.NixTransport} */
+  var deliveryHandler = function() {
+    this.channel_.safeDeliver(serviceName, payload);
+  };
   this.getWindow().setTimeout(goog.bind(deliveryHandler, this), 1);
 };
 
@@ -466,7 +465,7 @@ goog.net.xpc.NixTransport.prototype.send = function(service, payload) {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.net.xpc.NixTransport.prototype.disposeInternal = function() {
   goog.base(this, 'disposeInternal');
   this.nixChannel_ = null;

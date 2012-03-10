@@ -23,6 +23,8 @@
  *
  * Tested and verified to work in Gecko 1.9.2+ and WebKit 528+.
  *
+ * @author eae@google.com (Emil A Eklund)
+ * @author slightlyoff@google.com (Alex Russell)
  * @see ../demos/css3button.html
  */
 
@@ -70,7 +72,7 @@ goog.addSingletonGetter(goog.ui.Css3ButtonRenderer);
 goog.ui.Css3ButtonRenderer.CSS_CLASS = goog.getCssName('goog-css3-button');
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.Css3ButtonRenderer.prototype.getContentElement = function(element) {
   return /** @type {Element} */ (element);
 };
@@ -107,7 +109,7 @@ goog.ui.Css3ButtonRenderer.prototype.canDecorate = function(element) {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.Css3ButtonRenderer.prototype.decorate = function(button, element) {
   goog.dom.classes.add(element, goog.ui.INLINE_BLOCK_CLASSNAME,
       this.getCssClass());

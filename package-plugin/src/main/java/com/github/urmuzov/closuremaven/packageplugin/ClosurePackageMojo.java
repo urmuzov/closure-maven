@@ -36,6 +36,11 @@ public class ClosurePackageMojo extends AbstractMojo {
      */
     private String buildDirectory;
     /**
+     * @parameter expression="${project.build.directory}/closure"
+     * @required
+     */
+    private File closureDirectory;
+    /**
      * @parameter default-value="${project}"
      */
     private MavenProject mavenProject;
@@ -59,7 +64,7 @@ public class ClosurePackageMojo extends AbstractMojo {
         try {
             Properties props = new Properties();
             for (Entry<String, String> e : closurePackages.entrySet()) {
-                FileUtils.copyDirectory(new File(buildDirectory + "/classes/" + e.getValue().replace(".", "/")), new File(buildDirectory + "/closure"));
+                FileUtils.copyDirectory(new File(buildDirectory + "/classes/" + e.getValue().replace(".", "/")), closureDirectory);
                 props.setProperty(e.getKey(), e.getValue());
             }
             File out = new File(buildDirectory + "/classes/META-INF/closure-packages.properties");
@@ -104,7 +109,7 @@ public class ClosurePackageMojo extends AbstractMojo {
                     Collections.sort(fileNames);
                     for (String fileName : fileNames) {
                         if (fileName.startsWith(closurePackageResource)) {
-                            File out = new File(buildDirectory + "/closure/" + fileName.substring(closurePackageResource.length()));
+                            File out = new File(closureDirectory, fileName.substring(closurePackageResource.length()));
                             if (fileName.endsWith("/")) {
                                 info("Dir: " + fileName);
                                 out.mkdirs();

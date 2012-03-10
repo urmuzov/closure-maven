@@ -1,6 +1,7 @@
 package com.github.urmuzov.closurecompilermavenplugin;
 
 import com.google.javascript.jscomp.JSSourceFile;
+import com.google.javascript.jscomp.SourceFile;
 
 import java.io.File;
 import java.util.*;
@@ -11,17 +12,17 @@ import java.util.regex.Pattern;
  */
 public class JSFileCollector {
 
-    private List<JSSourceFile> files = new ArrayList<JSSourceFile>();
+    private List<SourceFile> files = new ArrayList<SourceFile>();
 
     public JSFileCollector() {
     }
 
-    public List<JSSourceFile> getFiles() {
-        List<JSSourceFile> src = new ArrayList<JSSourceFile>();
+    public List<SourceFile> getFiles() {
+        List<SourceFile> src = new ArrayList<SourceFile>();
         src.addAll(files);
-        Collections.sort(src, new Comparator<JSSourceFile>() {
+        Collections.sort(src, new Comparator<SourceFile>() {
             @Override
-            public int compare(JSSourceFile jsSourceFile, JSSourceFile jsSourceFile1) {
+            public int compare(SourceFile jsSourceFile, SourceFile jsSourceFile1) {
                 return jsSourceFile.getOriginalPath().compareTo(jsSourceFile1.getOriginalPath());
             }
         });
@@ -46,11 +47,11 @@ public class JSFileCollector {
         }
     }
 
-    public void collectJSSourceFiles(Collection<JSSourceFile> files) {
+    public void collectJSSourceFiles(Collection<SourceFile> files) {
         if (files == null) {
             return;
         }
-        for (JSSourceFile file : files) {
+        for (SourceFile file : files) {
             collect(file);
         }
     }
@@ -59,7 +60,7 @@ public class JSFileCollector {
         collectFile(new File(path), excludePattern);
     }
 
-    public void collect(JSSourceFile jSSourceFile) {
+    public void collect(SourceFile jSSourceFile) {
         files.add(jSSourceFile);
     }
 

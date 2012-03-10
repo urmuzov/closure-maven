@@ -4,7 +4,7 @@
     <groupId>com.github.urmuzov</groupId>
     <artifactId>closure-maven</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <name>closure-maven</name>
     <modules>
         <module>package-plugin</module>
@@ -62,7 +62,7 @@
             <dependency>
                 <groupId>com.google.javascript</groupId>
                 <artifactId>closure-compiler</artifactId>
-                <version>r1352</version>
+                <version>r1810</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.maven</groupId>

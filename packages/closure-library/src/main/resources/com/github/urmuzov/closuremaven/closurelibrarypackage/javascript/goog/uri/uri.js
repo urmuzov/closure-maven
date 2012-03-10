@@ -1020,7 +1020,7 @@ goog.Uri.reDisallowedInFragment_ = /#/g;
  */
 goog.Uri.haveSameDomain = function(uri1String, uri2String) {
   // Differs from goog.uri.utils.haveSameDomain, since this ignores scheme.
-  // TODO(user): Have this just call goog.uri.util.haveSameDomain.
+  // TODO(gboyer): Have this just call goog.uri.util.haveSameDomain.
   var pieces1 = goog.uri.utils.split(uri1String);
   var pieces2 = goog.uri.utils.split(uri2String);
   return pieces1[goog.uri.utils.ComponentIndex.DOMAIN] ==
@@ -1158,7 +1158,7 @@ goog.Uri.QueryData.createFromKeysValues = function(
  * We need to use a Map because we cannot guarantee that the key names will
  * not be problematic for IE.
  *
- * @type {Object}
+ * @type {goog.structs.Map}
  * @private
  */
 goog.Uri.QueryData.prototype.keyMap_ = null;
@@ -1281,7 +1281,7 @@ goog.Uri.QueryData.prototype.containsKey = function(key) {
  * @return {boolean} Whether there is a parameter with the given value.
  */
 goog.Uri.QueryData.prototype.containsValue = function(value) {
-  // NOTE(user): This solution goes through all the params even if it was the
+  // NOTE(arv): This solution goes through all the params even if it was the
   // first param. We can get around this by not reusing code or by switching to
   // iterators.
   var vals = this.getValues();
@@ -1292,13 +1292,13 @@ goog.Uri.QueryData.prototype.containsValue = function(value) {
 /**
  * Returns all the keys of the parameters. If a key is used multiple times
  * it will be included multiple times in the returned array
- * @return {Array} All the keys of the parameters.
+ * @return {!Array} All the keys of the parameters.
  */
 goog.Uri.QueryData.prototype.getKeys = function() {
   this.ensureKeyMapInitialized_();
   // We need to get the values to know how many keys to add.
-  var vals = this.keyMap_.getValues(); // Array.<Array|String>
-  var keys = this.keyMap_.getKeys(); // Array.<String>
+  var vals = /** @type {Array.<Array|*>} */ (this.keyMap_.getValues());
+  var keys = this.keyMap_.getKeys();
   var rv = [];
   for (var i = 0; i < keys.length; i++) {
     var val = vals[i];
@@ -1319,35 +1319,21 @@ goog.Uri.QueryData.prototype.getKeys = function() {
  * data has no such key this will return an empty array. If no key is given
  * all values wil be returned.
  * @param {string=} opt_key The name of the parameter to get the values for.
- * @return {Array} All the values of the parameters with the given name.
+ * @return {!Array} All the values of the parameters with the given name.
  */
 goog.Uri.QueryData.prototype.getValues = function(opt_key) {
   this.ensureKeyMapInitialized_();
-  var rv;
+  var rv = [];
   if (opt_key) {
     var key = this.getKeyName_(opt_key);
     if (this.containsKey(key)) {
-      var value = this.keyMap_.get(key);
-      if (goog.isArray(value)) {
-        return value;
-      } else {
-        rv = [];
-        rv.push(value);
-      }
-    } else {
-      rv = [];
+      rv = goog.array.concat(rv, this.keyMap_.get(key));
     }
   } else {
-    // return all values
-    var vals = this.keyMap_.getValues(); // Array.<Array|String>
-    rv = [];
-    for (var i = 0; i < vals.length; i++) {
-      var val = vals[i];
-      if (goog.isArray(val)) {
-        goog.array.extend(rv, val);
-      } else {
-        rv.push(val);
-      }
+    // Return all values.
+    var values = /** @type {Array.<Array|*>} */ (this.keyMap_.getValues());
+    for (var i = 0; i < values.length; i++) {
+      rv = goog.array.concat(rv, values[i]);
     }
   }
   return rv;
@@ -1576,7 +1562,7 @@ goog.Uri.QueryData.prototype.setIgnoreCase = function(ignoreCase) {
     this.invalidateCache_();
     goog.structs.forEach(this.keyMap_,
         /** @this {goog.Uri.QueryData} */
-        function(value, key, map) {
+        function(value, key) {
           var lowerCase = key.toLowerCase();
           if (key != lowerCase) {
             this.remove(key);

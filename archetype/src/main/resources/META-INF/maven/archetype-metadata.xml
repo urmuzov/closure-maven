@@ -36,9 +36,8 @@
             <includes>
                 <include>css/**</include>
                 <include>externs/**</include>
-                <include>images/**</include>
+                <include>img/**</include>
                 <include>javascript/**</include>
-                <include>resources/**</include>
             </includes>
         </fileSet>
     </fileSets>

@@ -15,6 +15,7 @@
 /**
  * @fileoverview Default renderer for {@link goog.ui.Button}s.
  *
+ * @author attila@google.com (Attila Bodis)
  */
 
 goog.provide('goog.ui.ButtonRenderer');
@@ -91,7 +92,7 @@ goog.ui.ButtonRenderer.prototype.updateAriaState = function(element, state,
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.ButtonRenderer.prototype.createDom = function(button) {
   var element = goog.ui.ButtonRenderer.superClass_.createDom.call(this, button);
 
@@ -115,7 +116,7 @@ goog.ui.ButtonRenderer.prototype.createDom = function(button) {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.ButtonRenderer.prototype.decorate = function(button, element) {
   // The superclass implementation takes care of common attributes; we only
   // need to set the value and the tooltip.
@@ -149,7 +150,6 @@ goog.ui.ButtonRenderer.prototype.getValue = goog.nullFunction;
  * the new value.  No-op in the base class.
  * @param {Element} element The button's root element.
  * @param {string} value New value.
- * @protected
  */
 goog.ui.ButtonRenderer.prototype.setValue = goog.nullFunction;
 
@@ -201,7 +201,7 @@ goog.ui.ButtonRenderer.prototype.setCollapsed = function(button, sides) {
 };
 
 
-/** @inheritDoc */
+/** @override */
 goog.ui.ButtonRenderer.prototype.getCssClass = function() {
   return goog.ui.ButtonRenderer.CSS_CLASS;
 };

@@ -20,6 +20,12 @@
             </includes>
         </fileSet>
         <fileSet>
+            <directory>src/main/webapp/img</directory>
+            <includes>
+                <include>**</include>
+            </includes>
+        </fileSet>
+        <fileSet>
             <directory>src/main/webapp/META-INF</directory>
             <includes>
                 <include>**</include>

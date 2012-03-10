@@ -3,14 +3,14 @@
     <parent>
         <groupId>com.github.urmuzov</groupId>
         <artifactId>closure-maven</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.urmuzov</groupId>
     <artifactId>closure-compiler-maven-plugin-example1</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>war</packaging>
 
     <name>closure-compiler-maven-plugin-example1</name>

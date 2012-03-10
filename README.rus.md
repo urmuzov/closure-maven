@@ -1,4 +1,3 @@
-
 О проекте
 =========
 
@@ -19,15 +18,37 @@
 
     ...
     <repositories>
-      <repository>
-        <id>urmuzov-snapshots</id>
-        <url>http://urmuzov.github.com/maven-repository/snapshots</url>
-      </repository>
-      <repository>
-        <id>urmuzov-releases</id>
-        <url>http://urmuzov.github.com/maven-repository/releases</url>
-      </repository>
+        <repository>
+            <id>urmuzov-snapshots</id>
+            <url>http://urmuzov.github.com/maven-repository/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>urmuzov-releases</id>
+            <url>http://urmuzov.github.com/maven-repository/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
     </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>urmuzov-snapshots</id>
+            <url>http://urmuzov.github.com/maven-repository/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>urmuzov-releases</id>
+            <url>http://urmuzov.github.com/maven-repository/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
     ...
 
 compiler-plugin
@@ -79,10 +100,10 @@ archetype
 Архетип для создания проекта использующего Closure-Library, компилируемого и собираемого при помощи compiler-plugin и package-plugin.
 
     mvn archetype:generate \
-      -DarchetypeRepository=http://urmuzov.github.com/maven-repository/releases/
+      -DarchetypeRepository=http://urmuzov.github.com/maven-repository/releases/ \
       -DarchetypeGroupId=com.github.urmuzov \ 
       -DarchetypeArtifactId=closure-package-maven-archetype \
-      -DarchetypeVersion=1.0.3 \
+      -DarchetypeVersion=1.0.4 \
       -DgroupId=my.test.group \
       -DartifactId=test-artifact \
       -Dversion=1.0.0-SNAPSHOT \
@@ -92,4 +113,4 @@ archetype
  
 Следующие 4 параметра определяют название группы, артефакта, версию и пакет (опционально) в котором будет лежать стандартная структура closure-package.
 
-Подробнее об архетипе смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/package-plugin/README.rus.md)
+Подробнее об архетипе смотрите [здесь](https://github.com/urmuzov/closure-maven/tree/master/archetype/README.rus.md)
